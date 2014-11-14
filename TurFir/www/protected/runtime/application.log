@@ -1,0 +1,2100 @@
+2014/11/07 14:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "gii".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('gii')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/gii
+---
+2014/11/07 15:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/site/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/site/inde...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/site/index
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/07 16:20:55 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 16:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/site/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/site/inde...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/site/index
+HTTP_REFERER=http://yiitest/admin/news/update/id/1
+---
+2014/11/07 16:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/site/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/site/inde...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/site/index
+HTTP_REFERER=http://yiitest/admin/news/update/id/1
+---
+2014/11/07 16:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 16:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "news/admin".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/admin')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/news/admin
+---
+2014/11/07 16:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "news/admin".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/admin')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/news/admin
+---
+2014/11/07 16:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 16:47:43 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 16:53:35 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 16:53:38 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 16:55:04 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 17:00:51 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/07 17:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/logout".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/logout')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/logout
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/07 17:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/login".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/login
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/07 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/logout".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/logout')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/logout
+HTTP_REFERER=http://yiitest/admin/news/index
+---
+2014/11/07 17:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:37:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 17:40:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 18:44:41 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.TheCKEditor.TheCKEditorWidget" неверен. Убедитесь, что он указывает на существующий PHP файл.' in L:\home\yiitest\www\framework\YiiBase.php:322
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 L:\home\yiitest\www\protected\modules\admin\views\news\_form.php(54): CBaseController->widget('application.ext...', Array)
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#7 L:\home\yiitest\www\protected\modules\admin\views\news\update.php(21): CController->renderPartial('_form', Array)
+#8 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#9 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#10 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#11 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(103): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('1')
+#14 L:\home\yiitest\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('update')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/upda...')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news/update/id/1
+HTTP_REFERER=http://yiitest/admin/news/index
+---
+2014/11/07 18:53:48 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.ckeditor.CKEditor" неверен. Убедитесь, что он указывает на существующий PHP файл.' in L:\home\yiitest\www\framework\YiiBase.php:322
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 L:\home\yiitest\www\protected\modules\admin\views\news\_form.php(53): CBaseController->widget('application.ext...', Array)
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#7 L:\home\yiitest\www\protected\modules\admin\views\news\update.php(21): CController->renderPartial('_form', Array)
+#8 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#9 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#10 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#11 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(103): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('1')
+#14 L:\home\yiitest\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('update')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/upda...')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news/update/id/1
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/07 18:58:14 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.ckeditor.CKEditor" неверен. Убедитесь, что он указывает на существующий PHP файл.' in L:\home\yiitest\www\framework\YiiBase.php:322
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 L:\home\yiitest\www\protected\modules\admin\views\news\_form.php(53): CBaseController->widget('application.ext...', Array)
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#7 L:\home\yiitest\www\protected\modules\admin\views\news\update.php(21): CController->renderPartial('_form', Array)
+#8 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#9 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#10 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#11 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(103): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('1')
+#14 L:\home\yiitest\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('update')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/upda...')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news/update/id/1
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/07 18:59:04 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.TheCKEditor.theCKEditorWidget" неверен. Убедитесь, что он указывает на существующий PHP файл.' in L:\home\yiitest\www\framework\YiiBase.php:322
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 L:\home\yiitest\www\protected\modules\admin\views\news\_form.php(48): CBaseController->widget('application.ext...', Array)
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#7 L:\home\yiitest\www\protected\modules\admin\views\news\update.php(21): CController->renderPartial('_form', Array)
+#8 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#9 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#10 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#11 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(103): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('1')
+#14 L:\home\yiitest\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('update')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/upda...')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news/update/id/1
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/07 19:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/1
+---
+2014/11/07 19:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/1
+---
+2014/11/07 19:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/07 19:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/07 19:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/07 19:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/07 19:08:19 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TheCKEditorWidget.language".' in L:\home\yiitest\www\framework\base\CComponent.php:173
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWidgetFactory.php(161): CComponent->__set('language', 'ru')
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.ext...', Array)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 L:\home\yiitest\www\protected\modules\admin\views\news\_form.php(49): CBaseController->widget('application.ext...', Array)
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#7 L:\home\yiitest\www\protected\modules\admin\views\news\update.php(21): CController->renderPartial('_form', Array)
+#8 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#9 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#10 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#11 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(103): CController->render('update', Array)
+#13 [internal function]: NewsController->actionUpdate('2')
+#14 L:\home\yiitest\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('update')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/upda...')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news/update/id/2
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/07 19:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/07 19:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/07 19:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "ckeditor/plugins/styles/styles//css/index.css.js".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('ckeditor/plugin...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ckeditor/plugins/styles/styles//css/index.css.js?t=B8DJ5M3
+HTTP_REFERER=http://yiitest/admin/news/update/id/2
+---
+2014/11/08 14:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/08 14:54:23 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.date".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('date')
+#1 L:\home\yiitest\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('date')
+#2 L:\home\yiitest\www\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(News), 'date')
+#3 L:\home\yiitest\www\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(News), 'date', Array)
+#4 L:\home\yiitest\www\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(News), 'date', Array)
+#5 L:\home\yiitest\www\protected\modules\admin\views\news\_search.php(21): CActiveForm->textField(Object(News), 'date')
+#6 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#7 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#8 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#9 L:\home\yiitest\www\protected\modules\admin\views\news\index.php(40): CController->renderPartial('_search', Array)
+#10 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#11 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', Array, true)
+#12 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', Array, true)
+#13 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(143): CController->render('index', Array)
+#15 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#16 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#23 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news')
+#26 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 L:\home\yiitest\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/news?view=about
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/08 14:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/news".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/news?view=about
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/08 15:01:11 [error] [exception.CException] exception 'CException' with message 'Контроллер NewsController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/news
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/08 15:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/view/id/2
+---
+2014/11/08 15:04:10 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.header".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('header')
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(27): CActiveRecord->__get('header')
+#2 L:\home\yiitest\www\protected\views\site\index.php(7): SiteController::indexNews()
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('index')
+#8 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yiitest/admin/news/admin
+---
+2014/11/08 15:04:26 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.header".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('header')
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(27): CActiveRecord->__get('header')
+#2 L:\home\yiitest\www\protected\views\site\index.php(7): SiteController::indexNews()
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('index')
+#8 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+---
+2014/11/08 15:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/news/admin
+HTTP_REFERER=http://yiitest/admin/news/create
+---
+2014/11/08 15:31:25 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(38): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (38)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:33:29 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(38): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (38)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:35:39 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:09 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:10 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:11 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:11 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:11 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:11 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:12 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:12 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:36:12 [error] [php] include(NewsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\index.php(5): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): SiteController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): SiteController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\SiteController.php(44): SiteController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): SiteController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): SiteController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in L:\home\yiitest\www\protected\views\site\index.php (5)
+in L:\home\yiitest\www\protected\controllers\SiteController.php (44)
+in L:\home\yiitest\www\index.php (13)
+2014/11/08 15:41:22 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "News.id".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 L:\home\yiitest\www\protected\views\site\index.php(15): CActiveRecord->__get('id')
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\SiteController.php(44): CController->render('index')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://yiitest/site/contact
+---
+2014/11/08 18:01:39 [error] [exception.CException] exception 'CException' with message 'В классе SiteController и его поведениях не найден метод или замыкание с именем "viewNews".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\site\detailed.php(5): CComponent->__call('viewNews', Array)
+#1 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController->viewNews('=1')
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/view/id_news/=1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:02:01 [error] [exception.CException] exception 'CException' with message 'В классе News и его поведениях не найден метод или замыкание с именем "findByAllAttributes".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAllAttrib...', Array)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(42): CActiveRecord->__call('findByAllAttrib...', Array)
+#2 L:\home\yiitest\www\protected\controllers\SiteController.php(42): News->findByAllAttributes(Array)
+#3 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController::viewNews('=1')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#7 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#8 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#9 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#10 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#15 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 L:\home\yiitest\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/view/id_news/=1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:02:36 [error] [exception.CException] exception 'CException' with message 'В классе News и его поведениях не найден метод или замыкание с именем "findByAllAttributes".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAllAttrib...', Array)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(42): CActiveRecord->__call('findByAllAttrib...', Array)
+#2 L:\home\yiitest\www\protected\controllers\SiteController.php(42): News->findByAllAttributes(Array)
+#3 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController::viewNews('=1')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#7 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#8 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#9 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#10 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#15 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 L:\home\yiitest\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/view/id_news/=1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:02:45 [error] [exception.CException] exception 'CException' with message 'В классе News и его поведениях не найден метод или замыкание с именем "findByAllAttributes".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAllAttrib...', Array)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(42): CActiveRecord->__call('findByAllAttrib...', Array)
+#2 L:\home\yiitest\www\protected\controllers\SiteController.php(42): News->findByAllAttributes(Array)
+#3 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController::viewNews('=2')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#7 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#8 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#9 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#10 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#15 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 L:\home\yiitest\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/view/id_news/=2
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:02:50 [error] [exception.CException] exception 'CException' with message 'В классе News и его поведениях не найден метод или замыкание с именем "findByAllAttributes".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAllAttrib...', Array)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(42): CActiveRecord->__call('findByAllAttrib...', Array)
+#2 L:\home\yiitest\www\protected\controllers\SiteController.php(42): News->findByAllAttributes(Array)
+#3 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController::viewNews('=1')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#7 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#8 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#9 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#10 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#15 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 L:\home\yiitest\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/view/id_news/=1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:02:52 [error] [exception.CException] exception 'CException' with message 'В классе News и его поведениях не найден метод или замыкание с именем "findByAllAttributes".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAllAttrib...', Array)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(42): CActiveRecord->__call('findByAllAttrib...', Array)
+#2 L:\home\yiitest\www\protected\controllers\SiteController.php(42): News->findByAllAttributes(Array)
+#3 L:\home\yiitest\www\protected\views\site\detailed.php(5): SiteController::viewNews('=2')
+#4 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#5 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#6 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#7 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#8 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#9 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#10 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#14 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#15 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 L:\home\yiitest\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/view/id_news/=2
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/08 18:33:23 [error] [exception.CException] exception 'CException' with message 'В классе NewsController и его поведениях не найден метод или замыкание с именем "allNews".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\news\index.php(5): CComponent->__call('allNews', Array)
+#1 L:\home\yiitest\www\protected\views\news\index.php(5): NewsController->allNews()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\NewsController.php(7): CController->render('index')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): NewsController->actionIndex()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('index')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/index')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/news/index
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 09:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/09 10:39:58 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 10:40:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in L:\home\yiitest\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 L:\home\yiitest\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/dele...')
+#9 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 L:\home\yiitest\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/news/delete/id/3?ajax=news-grid
+HTTP_REFERER=http://yiitest/admin/news/index
+---
+2014/11/09 10:43:06 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/logout".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/logout')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/logout
+HTTP_REFERER=http://yiitest/admin/news?view=about
+---
+2014/11/09 12:04:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/login".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/login
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/09 12:07:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/login".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/login
+HTTP_REFERER=http://yiitest/admin
+---
+2014/11/09 12:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/user/admin
+HTTP_REFERER=http://yiitest/admin/user/create
+---
+2014/11/09 12:43:17 [error] [exception.CException] exception 'CException' with message 'Контроллер CountryController не может найти представление "index".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 L:\home\yiitest\www\protected\modules\admin\controllers\CountryController.php(128): CController->render('index', Array)
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionIndex()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/country')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/country
+HTTP_REFERER=http://yiitest/gii/crud/index
+---
+2014/11/09 12:51:24 [error] [php] Invalid argument supplied for foreach() (L:\home\yiitest\www\protected\views\country\index.php:23)
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(869): CountryController->renderFile()
+#1 L:\home\yiitest\www\framework\web\CController.php(782): CountryController->renderPartial()
+#2 L:\home\yiitest\www\protected\controllers\CountryController.php(7): CountryController->render()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionIndex()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 L:\home\yiitest\www\framework\web\CController.php(286): CountryController->runAction()
+#6 L:\home\yiitest\www\framework\web\CController.php(265): CountryController->runActionWithFilters()
+#7 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CountryController->run()
+#8 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/country
+in L:\home\yiitest\www\protected\views\country\index.php (23)
+in L:\home\yiitest\www\protected\controllers\CountryController.php (7)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 12:55:39 [error] [php] include(NewsCountry.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\country\index.php(16): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): CountryController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): CountryController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): CountryController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\CountryController.php(7): CountryController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): CountryController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): CountryController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CountryController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/country
+in L:\home\yiitest\www\protected\views\country\index.php (16)
+in L:\home\yiitest\www\protected\controllers\CountryController.php (7)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 12:56:37 [error] [php] include(NewsCountry.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\country\index.php(16): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): CountryController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): CountryController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): CountryController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\CountryController.php(7): CountryController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): CountryController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): CountryController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CountryController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/country
+in L:\home\yiitest\www\protected\views\country\index.php (16)
+in L:\home\yiitest\www\protected\controllers\CountryController.php (7)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 12:57:51 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Country.name_country".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name_country')
+#1 L:\home\yiitest\www\protected\views\country\index.php(23): CActiveRecord->__get('name_country')
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\CountryController.php(7): CController->render('index')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionIndex()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/country
+---
+2014/11/09 13:03:07 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "detailed".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#7 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#8 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 L:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/view/id_news/1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 13:03:24 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "detailed".' in L:\home\yiitest\www\framework\web\CController.php:878
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#1 L:\home\yiitest\www\protected\controllers\SiteController.php(38): CController->render('detailed')
+#2 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): SiteController->actionView()
+#3 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#7 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#8 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 L:\home\yiitest\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/view/id_news/1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 13:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view/id_news/1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 13:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view/id_news/1
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 13:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view/id_ne...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view/id_news/1
+HTTP_REFERER=http://yiitest/news/index
+---
+2014/11/09 15:09:42 [warning] [application] Не удалось присвоить небезопасный атрибут "visible" класса "Hotel".
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:09:42 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:09:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:12:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:12:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:13:31 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:13:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:14:23 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:14:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:14:29 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:14:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:24:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:24:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:25:14 [warning] [application] Не удалось присвоить небезопасный атрибут "visible" класса "Tour".
+in L:\home\yiitest\www\protected\modules\admin\controllers\TourController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:25:52 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 15:25:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `hotel` (`name_hotel`, `short_text`, `text`, `type`, `hotel_cost`, `id_tour`, `visible`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\HotelController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/hotel/create
+HTTP_REFERER=http://yiitest/admin/hotel/create
+---
+2014/11/09 15:36:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "share/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 15:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tour/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 15:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "share/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://yiitest/country/index
+---
+2014/11/09 15:57:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tour/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://yiitest/share/index
+---
+2014/11/09 15:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "share/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 15:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tour/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://yiitest/share/index
+---
+2014/11/09 15:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "share/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 16:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('admin')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/share/adm...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/share/admin
+HTTP_REFERER=http://yiitest/admin/share/create
+---
+2014/11/09 16:05:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/hotel".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/hotel?view=about
+HTTP_REFERER=http://yiitest/admin/
+---
+2014/11/09 16:06:50 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 16:06:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`share`, CONSTRAINT `share_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: INSERT INTO `share` (`name_share`, `short_text`, `text`, `id_tour`, `visible`, `image`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php (73)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 16:06:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`share`, CONSTRAINT `share_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `share` (`name_share`, `short_text`, `text`, `id_tour`, `visible`, `image`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in L:\home\yiitest\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php(73): CActiveRecord->save()
+#3 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): ShareController->actionCreate()
+#4 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 L:\home\yiitest\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 L:\home\yiitest\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 L:\home\yiitest\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 L:\home\yiitest\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 L:\home\yiitest\www\framework\web\CController.php(291): CFilterChain->run()
+#11 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/share/cre...')
+#14 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 L:\home\yiitest\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/share/create
+HTTP_REFERER=http://yiitest/admin/share/create
+---
+2014/11/09 16:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/tour".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/tour')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/tour?view=about
+HTTP_REFERER=http://yiitest/admin/country?view=about
+---
+2014/11/09 16:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "tour/index".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://yiitest/country/index
+---
+2014/11/09 16:13:07 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php (72)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 16:21:27 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Tour.name".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 L:\home\yiitest\www\protected\views\tour\index.php(15): CActiveRecord->__get('name')
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\TourController.php(7): CController->render('index')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): TourController->actionIndex()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('index')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 16:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 16:25:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 16:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/2.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/2.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 16:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 16:34:38 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory (L:\home\yiitest\www\protected\extensions\kyimages\KYImages.php:56)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\tour\index.php(21): TourController->widget()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): TourController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): TourController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): TourController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\TourController.php(7): TourController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): TourController->actionIndex()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): TourController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): TourController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): TourController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/tour/index
+in L:\home\yiitest\www\protected\extensions\kyimages\KYImages.php (56)
+in L:\home\yiitest\www\protected\views\tour\index.php (21)
+in L:\home\yiitest\www\protected\controllers\TourController.php (7)
+2014/11/09 16:37:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 17:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 17:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/09 17:43:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 17:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/images/1.j...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tour/images/1.jpg
+HTTP_REFERER=http://yiitest/tour/index
+---
+2014/11/09 18:24:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/hotel".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/hotel?view=about
+HTTP_REFERER=http://yiitest/admin/country/create
+---
+2014/11/09 18:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/hotel".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/hotel?view=about
+HTTP_REFERER=http://yiitest/admin/tour?view=about
+---
+2014/11/09 18:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "фвьшт".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('??????????')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/%D1%84%D0%B2%D1%8C%D1%88%D1%82
+---
+2014/11/09 18:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/hotel".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/hotel?view=about
+HTTP_REFERER=http://yiitest/admin/share?view=about
+---
+2014/11/09 18:39:14 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php (96)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 18:39:28 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php (96)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 18:39:42 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\yiitest\www\protected\modules\admin\controllers\NewsController.php (96)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 18:40:27 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php (96)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 18:40:31 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in L:\home\yiitest\www\protected\modules\admin\controllers\ShareController.php (96)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 18:48:21 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Share.id_country".' in L:\home\yiitest\www\framework\base\CComponent.php:130
+Stack trace:
+#0 L:\home\yiitest\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_country')
+#1 L:\home\yiitest\www\protected\views\share\index.php(9): CActiveRecord->__get('id_country')
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\ShareController.php(7): CController->render('index')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('index')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://yiitest/share/index
+---
+2014/11/09 19:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('hotel/view/id_h...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hotel/view/id_hotel/1
+HTTP_REFERER=http://yiitest/hotel/index
+---
+2014/11/09 19:27:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('view')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('hotel/view/id_h...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hotel/view/id_hotel/1
+HTTP_REFERER=http://yiitest/hotel/index
+---
+2014/11/09 19:28:37 [error] [exception.CException] exception 'CException' with message 'В классе HotelController и его поведениях не найден метод или замыкание с именем "viewCountry".' in L:\home\yiitest\www\framework\base\CComponent.php:266
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\hotel\detailed.php(5): CComponent->__call('viewCountry', Array)
+#1 L:\home\yiitest\www\protected\views\hotel\detailed.php(5): HotelController->viewCountry(NULL)
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(126): require('L:\home\yiitest...')
+#3 L:\home\yiitest\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('L:\home\yiitest...', NULL, true)
+#4 L:\home\yiitest\www\framework\web\CController.php(869): CBaseController->renderFile('L:\home\yiitest...', NULL, true)
+#5 L:\home\yiitest\www\framework\web\CController.php(782): CController->renderPartial('detailed', NULL, true)
+#6 L:\home\yiitest\www\protected\controllers\HotelController.php(21): CController->render('detailed')
+#7 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): HotelController->actionView()
+#8 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 L:\home\yiitest\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 L:\home\yiitest\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('view')
+#12 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('hotel/view/id_h...')
+#13 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 L:\home\yiitest\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/hotel/view/id_hotel/1
+HTTP_REFERER=http://yiitest/hotel/index
+---
+2014/11/09 19:34:29 [error] [php] include(SiteController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\country\detailed.php(6): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): CountryController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): CountryController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): CountryController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\CountryController.php(11): CountryController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionView()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): CountryController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): CountryController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CountryController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/country/view/id_country/1
+in L:\home\yiitest\www\protected\views\country\detailed.php (6)
+in L:\home\yiitest\www\protected\controllers\CountryController.php (11)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 19:35:45 [error] [php] include(SiteController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (L:\home\yiitest\www\framework\YiiBase.php:427)
+Stack trace:
+#0 L:\home\yiitest\www\protected\views\country\detailed.php(6): spl_autoload_call()
+#1 L:\home\yiitest\www\framework\web\CBaseController.php(126): require()
+#2 L:\home\yiitest\www\framework\web\CBaseController.php(95): CountryController->renderInternal()
+#3 L:\home\yiitest\www\framework\web\CController.php(869): CountryController->renderFile()
+#4 L:\home\yiitest\www\framework\web\CController.php(782): CountryController->renderPartial()
+#5 L:\home\yiitest\www\protected\controllers\CountryController.php(11): CountryController->render()
+#6 L:\home\yiitest\www\framework\web\actions\CInlineAction.php(49): CountryController->actionView()
+#7 L:\home\yiitest\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 L:\home\yiitest\www\framework\web\CController.php(286): CountryController->runAction()
+#9 L:\home\yiitest\www\framework\web\CController.php(265): CountryController->runActionWithFilters()
+#10 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CountryController->run()
+#11 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 L:\home\yiitest\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/country/view/id_country/1
+in L:\home\yiitest\www\protected\views\country\detailed.php (6)
+in L:\home\yiitest\www\protected\controllers\CountryController.php (11)
+in L:\home\yiitest\www\index.php (13)
+2014/11/09 20:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/lef...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/left.gif
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 20:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/rig...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/right.gif
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 20:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/bg.jpg".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/bg.j...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/bg.jpg
+HTTP_REFERER=http://yiitest/css/style.css
+---
+2014/11/09 20:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/left.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/left.gif')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/left.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/right.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/right.gi...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/right.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:07:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/bg.jpg".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/bg.j...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/bg.jpg
+HTTP_REFERER=http://yiitest/css/style.css
+---
+2014/11/09 20:08:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/left.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/left.gif')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/left.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:08:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/right.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/right.gi...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/right.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/right.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/right.gi...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/right.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/left.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/left.gif')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/left.gif
+HTTP_REFERER=http://yiitest/
+---
+2014/11/09 20:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lef...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/images/left.gif
+HTTP_REFERER=http://yiitest/news/index
+---
+2014/11/09 20:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "images".' in L:\home\yiitest\www\framework\web\CController.php:483
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CController.php(270): CController->missingAction('images')
+#1 L:\home\yiitest\www\framework\web\CWebApplication.php(282): CController->run('images')
+#2 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/rig...')
+#3 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 L:\home\yiitest\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/news/images/right.gif
+HTTP_REFERER=http://yiitest/news/index
+---
+2014/11/09 20:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "imagesimages/left.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('imagesimages/le...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imagesimages/left.gif
+HTTP_REFERER=http://yiitest/site/index
+---
+2014/11/09 20:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "imagesimages/left.gif".' in L:\home\yiitest\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\yiitest\www\framework\web\CWebApplication.php(141): CWebApplication->runController('imagesimages/le...')
+#1 L:\home\yiitest\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\yiitest\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imagesimages/left.gif
+HTTP_REFERER=http://yiitest/news/index
+---
+2014/11/10 19:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
