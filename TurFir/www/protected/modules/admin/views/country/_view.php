@@ -24,12 +24,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('visible')); ?>:</b>
 	<?php echo CHtml::encode($data->visible); ?>
 	<br />
-
-	<?php /*
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('image')); ?>:</b>
 	<?php echo CHtml::encode($data->image); ?>
 	<br />
 
-	*/ ?>
 
 </div>

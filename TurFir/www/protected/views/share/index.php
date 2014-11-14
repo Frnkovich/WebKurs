@@ -6,9 +6,15 @@
 <?
 foreach($res as $key){
 ?>
-    <a href="/share/view/id_share/<?=$key->id_share?>"><h3><?=$key->name_share?></a></h3>
-    <p><strong><?=$key->short_text?></strong></p> 
-    <img src="<?=$key->image?>" width="200px" height="150px"/>
+   
+    <table>
+   <caption><a href="/share/view/id_share/<?=$key->id_share?>"><h3><?=$key->name_share?></a></caption>
+   <tr></h3></tr>
+   <tr>
+    <th><img src="/images//share/<?=$key->id_share?><?=$key->image?>" width="200px" height="150px"/> </th>
+    <th><?=$key->short_text?></th>
+   </tr>
+  </table>
     <hr />
     <?}?>
 

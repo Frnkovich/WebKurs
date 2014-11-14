@@ -33,7 +33,7 @@ class Country extends CActiveRecord
 		return array(
 			array('name, short_text, text, visible, image', 'required'),
 			array('visible', 'numerical', 'integerOnly'=>true),
-			array('name, short_text', 'length', 'max'=>255),
+            array('name, short_text', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id_country, name, short_text, text, visible, image', 'safe', 'on'=>'search'),
@@ -107,4 +107,6 @@ class Country extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+
 }

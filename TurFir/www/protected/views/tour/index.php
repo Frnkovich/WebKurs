@@ -6,14 +6,19 @@ $res=TourController::allTour();
 <?
 foreach($res as $key){
 ?>
-
-    <a href="/tour/view/id_tour/<?=$key->id_tour?>"><h3><?=$key->name_tour?></a> </h3>
-      <p>   
-      <strong><?=$key->short_text?></strong> </p> 
-    <img src="<?=$key->image?>" width="200px" height="150px"/>
-     
-     <hr />
   
+   <table >
+   <caption><a href="/tour/view/id_tour/<?=$key->id_tour?>"><h3><?=$key->name_tour?></a></caption>
+   <tr></h3></tr>
+   <tr>
+    <th><img src="/images//tour/<?=$key->id_tour?><?=$key->image?>" width="200px" height="150px"/> </th>
+    <th  ><?=$key->short_text?></th>
+   </tr>
+  </table>
+    <hr />
     <?}?>
 
+
 </div>
+
+

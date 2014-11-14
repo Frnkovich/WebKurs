@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Hotel', 'url'=>array('index')),
 	array('label'=>'Create Hotel', 'url'=>array('create')),
 	array('label'=>'View Hotel', 'url'=>array('view', 'id'=>$model->id_hotel)),
-	array('label'=>'Manage Hotel', 'url'=>array('admin')),
+	array('label'=>'Manage Hotel', 'url'=>array('index')),
 );
 ?>
 

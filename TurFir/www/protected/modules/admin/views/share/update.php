@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Share', 'url'=>array('index')),
 	array('label'=>'Create Share', 'url'=>array('create')),
 	array('label'=>'View Share', 'url'=>array('view', 'id'=>$model->id_share)),
-	array('label'=>'Manage Share', 'url'=>array('admin')),
+	array('label'=>'Manage Share', 'url'=>array('index')),
 );
 ?>
 

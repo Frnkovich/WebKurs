@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Country', 'url'=>array('index')),
-	array('label'=>'Manage Country', 'url'=>array('admin')),
+	array('label'=>'Manage Country', 'url'=>array('index')),
 );
 ?>
 

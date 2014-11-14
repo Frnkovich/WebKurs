@@ -60,25 +60,29 @@ class ShareController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
+
 	public function actionCreate()
 	{
-		$model=new Share;
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Share']))
-		{
-			$model->attributes=$_POST['Share'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_share));
-		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
+       $model=new Share;
+    if(isset($_POST['Share'])) {
+        $model->attributes=$_POST['Share'];
+        $file_image = CUploadedFile::getInstance($model, 'image');
+        if(is_object($file_image) && get_class($file_image) === 'CUploadedFile')
+            $model->image = $file_image;
+        if($model->save()) {
+            if(is_object($file_image)) {
+                $model->image->saveAs($_SERVER['DOCUMENT_ROOT'] . '/images/share/' .$model->id_share . $model->image);
+            }
+            $this->redirect(array('index'));
+        }
+    }
+    $this->render('create',array(
+        'model'=>$model,
+    ));
 	}
 
+
+ 
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
@@ -86,22 +90,24 @@ class ShareController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Share']))
-		{
-			$model->attributes=$_POST['Share'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_share));
-		}
-
-		$this->render('update',array(
-			'model'=>$model,
-		));
-	}
+       
+            $model=$this->loadModel($id);
+    if(isset($_POST['Share'])) {
+        $model->attributes=$_POST['Share'];
+        $file_image = CUploadedFile::getInstance($model, 'image');
+        if(is_object($file_image) && get_class($file_image) === 'CUploadedFile')
+            $model->image = $file_image;
+        if($model->save()) {
+            if(is_object($file_image)) {
+                $model->image->saveAs($_SERVER['DOCUMENT_ROOT'] . '/images/share/' . $model->id_share . $model->image);
+            }
+            $this->redirect(array('index'));
+        }
+    }
+    $this->render('update',array(
+        'model'=>$model,
+    ));
+}
 
 	/**
 	 * Deletes a particular model.

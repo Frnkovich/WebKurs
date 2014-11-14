@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Tour', 'url'=>array('index')),
 	array('label'=>'Create Tour', 'url'=>array('create')),
 	array('label'=>'View Tour', 'url'=>array('view', 'id'=>$model->id_tour)),
-	array('label'=>'Manage Tour', 'url'=>array('admin')),
+	array('label'=>'Manage Tour', 'url'=>array('index')),
 );
 ?>
 

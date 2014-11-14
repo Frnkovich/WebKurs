@@ -32,8 +32,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tour')); ?>:</b>
 	<?php echo CHtml::encode($data->id_tour); ?>
 	<br />
-
-	<?php /*
+ 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('visible')); ?>:</b>
 	<?php echo CHtml::encode($data->visible); ?>
 	<br />
@@ -42,6 +41,6 @@
 	<?php echo CHtml::encode($data->image); ?>
 	<br />
 
-	*/ ?>
+
 
 </div>

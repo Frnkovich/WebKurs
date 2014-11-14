@@ -8,11 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Share', 'url'=>array('index')),
 	array('label'=>'Create Share', 'url'=>array('create')),
 	array('label'=>'Update Share', 'url'=>array('update', 'id'=>$model->id_share)),
 	array('label'=>'Delete Share', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_share),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Share', 'url'=>array('admin')),
+	array('label'=>'Manage Share', 'url'=>array('index')),
 );
 ?>
 

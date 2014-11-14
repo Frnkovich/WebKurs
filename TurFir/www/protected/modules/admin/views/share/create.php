@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Share', 'url'=>array('index')),
-	array('label'=>'Manage Share', 'url'=>array('admin')),
+	array('label'=>'Manage Share', 'url'=>array('index')),
 );
 ?>
 

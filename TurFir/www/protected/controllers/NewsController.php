@@ -21,4 +21,7 @@ class NewsController extends Controller
         $res = News::model()->findAllByAttributes(array('visible'=>'1'));
         return $res;
     }
+    
+
+
 }

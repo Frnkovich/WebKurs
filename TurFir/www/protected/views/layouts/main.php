@@ -48,16 +48,16 @@
     <li><a href="/country/index">Country</a>
     <li><a href="/tour/index">Tour</a>
         <ul>
-            <li><a href="#">Oreder</a></li>
-            <li><a href="#">2</a></li>
+            <li><a href="/order/index">Order</a></li>
+            <li><a href="#">Search</a></li>
        </ul>
     </li>
     <li><a href="#">O nas</a>
         <ul>
             <li><a href="/news/index">News</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
+            <li><a href="#">Comments</a></li>
+            <li><a href="/partner/index">Partners</a></li>
+            <li><a href="/insurance/index">Insurance</a></li>
         </ul>
     </li>       
 </ul>

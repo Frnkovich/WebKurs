@@ -14,6 +14,7 @@
  */
 class News extends CActiveRecord
 {
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -33,6 +34,7 @@ class News extends CActiveRecord
 			array('name, short_text, text, visible, image', 'required'),
 			array('visible', 'numerical', 'integerOnly'=>true),
 			array('name, short_text', 'length', 'max'=>255),
+            array('image', 'unsafe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id_news, name, short_text, text, visible, date_create, image', 'safe', 'on'=>'search'),
@@ -107,4 +109,20 @@ class News extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+/*    protected function beforeSave() {
+   if(parent::beforeSave()) {
+       $this->date_create = date('Y-m-d', strtotime($this->date_create));//strtotime($this->date_start);
+       return true;
+   } else {
+       return false;
+   }
+}
+
+
+protected function afterFind() {
+   $date = date('d.m.Y', strtotime($this->date_create));
+   $this->date_create = $date;
+   parent::afterFind();
+}*/
 }

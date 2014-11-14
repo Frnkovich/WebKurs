@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Country', 'url'=>array('index')),
+	array('label'=>'Manage Country', 'url'=>array('index')),
 	array('label'=>'Create Country', 'url'=>array('create')),
 	array('label'=>'View Country', 'url'=>array('view', 'id'=>$model->id_country)),
-	array('label'=>'Manage Country', 'url'=>array('admin')),
 );
 ?>
 

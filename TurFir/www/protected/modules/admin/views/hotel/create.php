@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Hotel', 'url'=>array('index')),
-	array('label'=>'Manage Hotel', 'url'=>array('admin')),
+	array('label'=>'Manage Hotel', 'url'=>array('index')),
 );
 ?>
 

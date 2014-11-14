@@ -36,6 +36,9 @@
                 array('label'=>'Tour', 'url'=>array('/admin/tour', 'view'=>'about')),
                 array('label'=>'Share', 'url'=>array('/admin/share', 'view'=>'about')),
                 array('label'=>'Hotel', 'url'=>array('/admin/hotel', 'view'=>'about')),
+                array('label'=>'Order', 'url'=>array('/admin/order', 'view'=>'about')),
+                array('label'=>'Partner', 'url'=>array('/admin/partner', 'view'=>'about')),
+                array('label'=>'Insurance', 'url'=>array('/admin/insurance', 'view'=>'about')),
                 
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)

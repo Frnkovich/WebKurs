@@ -9,10 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List News', 'url'=>array('index')),
 	array('label'=>'Create News', 'url'=>array('create')),
 	array('label'=>'View News', 'url'=>array('view', 'id'=>$model->id_news)),
-	array('label'=>'Manage News', 'url'=>array('admin')),
+	array('label'=>'Manage News', 'url'=>array('index')),
 );
 ?>
 

@@ -13,6 +13,8 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+    'method' => 'post',
+    'htmlOptions'=>array('enctype'=>'multipart/form-data'),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -33,7 +35,25 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'text'); ?>
-		<?php echo $form->textArea($model,'text',array('rows'=>6, 'cols'=>50)); ?>
+		<?php $this->widget('application.extensions.TheCKEditor.TheCKEditorWidget',array(
+ 
+ //Модель с которой будет связан виджет
+ 'model'=>$model,
+ 
+ //Атрибут поля
+ 'attribute'=>'text',
+ 'height'=>'200px',
+ 'width'=>'100%',
+ 
+ //набор кнопок редактора (Basic,Standart или Full)
+ 'toolbarSet'=>"Full",
+ 
+ //Путь к файлу ckeditor.php
+ 'ckeditor'=>Yii::app()->basePath.'/../ckeditor/ckeditor.php',
+ 
+//Путь к редактору
+ 'ckBasePath'=>Yii::app()->baseUrl.'/ckeditor/',
+) );?>
 		<?php echo $form->error($model,'text'); ?>
 	</div>
 
@@ -57,7 +77,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'image'); ?>
-		<?php echo $form->textField($model,'image',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->fileField($model,'image'); ?>
 		<?php echo $form->error($model,'image'); ?>
 	</div>
 
