@@ -60,7 +60,7 @@ class HotelController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+/*	public function actionCreate()
 	{
 		$model=new Hotel;
 
@@ -78,13 +78,33 @@ class HotelController extends Controller
 			'model'=>$model,
 		));
 	}
+*/    
+    	public function actionCreate()
+	{
+       $model=new Hotel;
+    if(isset($_POST['Hotel'])) {
+        $model->attributes=$_POST['Hotel'];
+        $file_image = CUploadedFile::getInstance($model, 'image');
+        if(is_object($file_image) && get_class($file_image) === 'CUploadedFile')
+            $model->image = $file_image;
+        if($model->save()) {
+            if(is_object($file_image)) {
+                $model->image->saveAs($_SERVER['DOCUMENT_ROOT'] . '/images/hotel/' .$model->id_hotel . $model->image);
+            }
+            $this->redirect(array('index'));
+        }
+    }
+    $this->render('create',array(
+        'model'=>$model,
+    ));
+	}
 
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
+/*	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
 
@@ -102,7 +122,28 @@ class HotelController extends Controller
 			'model'=>$model,
 		));
 	}
+*/
 
+	public function actionUpdate($id)
+	{
+       
+            $model=$this->loadModel($id);
+    if(isset($_POST['Hotel'])) {
+        $model->attributes=$_POST['Hotel'];
+        $file_image = CUploadedFile::getInstance($model, 'image');
+        if(is_object($file_image) && get_class($file_image) === 'CUploadedFile')
+            $model->image = $file_image;
+        if($model->save()) {
+            if(is_object($file_image)) {
+                $model->image->saveAs($_SERVER['DOCUMENT_ROOT'] . '/images/hotel/' . $model->id_hotel . $model->image);
+            }
+            $this->redirect(array('index'));
+        }
+    }
+    $this->render('update',array(
+        'model'=>$model,
+    ));
+}
 	/**
 	 * Deletes a particular model.
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.

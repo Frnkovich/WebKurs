@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $res=TourController::allTour();
 ?>
 
@@ -20,5 +20,4 @@ foreach($res as $key){
 
 
 </div>
-
 

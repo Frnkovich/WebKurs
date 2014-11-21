@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this SiteController */
 if(isset($_GET['id_hotel'])){
     $id_hotel = $_GET['id_hotel'];

@@ -5308,3 +5308,1697 @@ Stack trace:
 REQUEST_URI=/images/partner/1/images/1.jpg
 HTTP_REFERER=http://turfir/partner/index
 ---
+2014/11/14 18:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/14 20:22:26 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:22:26 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/11
+HTTP_REFERER=http://turfir/news/index
+---
+2014/11/14 20:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/news".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/news')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/news/11
+HTTP_REFERER=http://turfir/news/index
+---
+2014/11/14 20:24:37 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:24:37 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:25:21 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:25:21 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (95)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:28:32 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (67)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:28:32 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (67)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:28:42 [warning] [application] Не удалось присвоить небезопасный атрибут "date_create" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (67)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:28:42 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "News".
+in L:\home\TurFir\www\protected\modules\admin\controllers\NewsController.php (67)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 20:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/1/images/1.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/1/images/1.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/14 20:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/2_3B9__ttDQw.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/2_3B9__ttDQw.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/14 20:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/country".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/country')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/country/11
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/14 20:30:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//share/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//share/1...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//share/11
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/14 20:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:42:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in L:\home\TurFir\www\framework\web\CController.php:336
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 L:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 L:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 L:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('view')
+#4 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/view/id_to...')
+#5 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 L:\home\TurFir\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/tour/view/id_tour/1
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:42:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in L:\home\TurFir\www\framework\web\CController.php:336
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 L:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 L:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 L:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('view')
+#4 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/view/id_to...')
+#5 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 L:\home\TurFir\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/tour/view/id_tour/1
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:43:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/11')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/11
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/14 20:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/1/images/1.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/1/images/1.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/14 20:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/2_3B9__ttDQw.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/2_3B9__ttDQw.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/14 20:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//share/11".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//share/1...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//share/11
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/14 20:58:58 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in L:\home\TurFir\www\protected\modules\admin\controllers\ShareController.php (96)
+in L:\home\TurFir\www\index.php (13)
+2014/11/14 21:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/1/images/1.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/1/images/1.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/14 21:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/2_3B9__ttDQw.jpg".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/2_3B9__ttDQw.jpg
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/20 18:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in L:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 L:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 L:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 L:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/20 20:01:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'TurFir'@'localhost' (using password: YES)' in Z:\home\TurFir\www\framework\db\CDbConnection.php:382
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 Z:\home\TurFir\www\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 Z:\home\TurFir\www\framework\base\CModule.php(387): CDbConnection->init()
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1534): CActiveRecord->getTableAlias(true)
+#7 Z:\home\TurFir\www\protected\controllers\ShareController.php(17): CActiveRecord->findAllByAttributes(Array)
+#8 Z:\home\TurFir\www\protected\views\share\index.php(2): ShareController::allShare()
+#9 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#10 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#11 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#12 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#13 Z:\home\TurFir\www\protected\controllers\ShareController.php(7): CController->render('index')
+#14 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#15 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#19 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/index')
+#20 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/share/index
+HTTP_REFERER=http://turfir/
+---
+2014/11/21 11:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/ima...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/images/2turciya.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/ima...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/images/1232914frederika.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/ima...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/images/331_0.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/engine1/w...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/engine1/wowslider.js
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/ima...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/images/1img.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/engine1/s...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/engine1/script.js
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/too...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/tooltips/2turciya.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/too...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/tooltips/331_0.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/too...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/tooltips/1img.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('share/data1/too...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share/data1/tooltips/1232914frederika.jpg
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/i...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/images/2turciya.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/i...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/images/331_0.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/engine1...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/engine1/wowslider.js
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/i...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/images/1img.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/engine1...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/engine1/script.js
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/i...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/images/1232914frederika.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/t...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/tooltips/1232914frederika.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/t...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/tooltips/2turciya.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/t...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/tooltips/331_0.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('country/data1/t...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/country/data1/tooltips/1img.jpg
+HTTP_REFERER=http://turfir/country/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/331_0.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/2turciya.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/331_0.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/1232914frederika.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/2turciya.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/engine1/wo...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/engine1/wowslider.js
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/1img.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/1img.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/engine1/sc...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/engine1/script.js
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/1232914frederika.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/2turciya.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/engine1/sc...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/engine1/script.js
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "engine1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('engine1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('engine1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/engine1/wo...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/engine1/wowslider.js
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/1img.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/331_0.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/imag...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/images/1232914frederika.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/2turciya.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/1232914frederika.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/1img.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 11:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "data1".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('data1')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('data1')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/data1/tool...')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/data1/tooltips/331_0.jpg
+HTTP_REFERER=http://turfir/site/index
+---
+2014/11/21 12:01:06 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reviews_datetime' in 'order clause'. Выполнявшийся SQL-запрос: SELECT * FROM `comment` `t` ORDER BY reviews_datetime DESC.
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (25)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 12:01:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reviews_datetime' in 'order clause'. The SQL statement executed was: SELECT * FROM `comment` `t` ORDER BY reviews_datetime DESC' in Z:\home\TurFir\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 Z:\home\TurFir\www\protected\controllers\CommentController.php(25): CActiveRecord->findAll(Array)
+#4 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#5 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#9 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#10 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/gii/controller/index
+---
+2014/11/21 12:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:09:10 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Comment.id_user".' in Z:\home\TurFir\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_user')
+#1 Z:\home\TurFir\www\framework\validators\CNumberValidator.php(78): CActiveRecord->__get('id_user')
+#2 Z:\home\TurFir\www\framework\validators\CValidator.php(213): CNumberValidator->validateAttribute(Object(Comment), 'id_user')
+#3 Z:\home\TurFir\www\framework\base\CModel.php(159): CValidator->validate(Object(Comment), NULL)
+#4 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 Z:\home\TurFir\www\protected\controllers\CommentController.php(18): CActiveRecord->save()
+#6 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#7 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#11 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#12 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:17:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Comment.reviews_restName".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(161): CComponent->__set('reviews_restNam...', 'hipster')
+#1 Z:\home\TurFir\www\protected\controllers\CommentController.php(17): CActiveRecord->__set('reviews_restNam...', 'hipster')
+#2 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#3 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#8 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:21:49 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Comment.reviews_restName".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(161): CComponent->__set('reviews_restNam...', 'hipster')
+#1 Z:\home\TurFir\www\protected\controllers\CommentController.php(17): CActiveRecord->__set('reviews_restNam...', 'hipster')
+#2 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#3 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#8 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:22:53 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Comment.reviews_restName".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(161): CComponent->__set('reviews_restNam...', 'hipster')
+#1 Z:\home\TurFir\www\protected\controllers\CommentController.php(17): CActiveRecord->__set('reviews_restNam...', 'hipster')
+#2 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#3 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#8 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:31:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2014/11/21 12:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:41:24 [error] [exception.CException] exception 'CException' with message 'Контроллер CommentController не может найти представление "comment/index".' in Z:\home\TurFir\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('comment/index', Array, true)
+#1 Z:\home\TurFir\www\protected\controllers\CommentController.php(26): CController->render('comment/index', Array)
+#2 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#3 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/index')
+#8 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/comment/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 12:41:28 [error] [exception.CException] exception 'CException' with message 'Контроллер CommentController не может найти представление "comment/index".' in Z:\home\TurFir\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('comment/index', Array, true)
+#1 Z:\home\TurFir\www\protected\controllers\CommentController.php(26): CController->render('comment/index', Array)
+#2 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#3 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#8 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/comment
+---
+2014/11/21 14:04:06 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Comment.id_user".' in Z:\home\TurFir\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_user')
+#1 Z:\home\TurFir\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_user')
+#2 Z:\home\TurFir\www\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Comment), 'id_user')
+#3 Z:\home\TurFir\www\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Comment), 'id_user', Array)
+#4 Z:\home\TurFir\www\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Comment), 'id_user', Array)
+#5 Z:\home\TurFir\www\protected\modules\admin\views\comment\_search.php(31): CActiveForm->textField(Object(Comment), 'id_user')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#7 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', Array, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', Array, true)
+#9 Z:\home\TurFir\www\protected\modules\admin\views\comment\index.php(40): CController->renderPartial('_search', Array)
+#10 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#11 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', Array, true)
+#12 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', Array, true)
+#13 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 Z:\home\TurFir\www\protected\modules\admin\controllers\CommentController.php(135): CController->render('index', Array)
+#15 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#16 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 Z:\home\TurFir\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 Z:\home\TurFir\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 Z:\home\TurFir\www\framework\web\CController.php(291): CFilterChain->run()
+#23 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment')
+#26 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/comment?view=about
+---
+2014/11/21 14:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 14:11:25 [error] [php] Invalid argument supplied for foreach() (Z:\home\TurFir\www\protected\views\comment\index.php:16)
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(869): CommentController->renderFile()
+#1 Z:\home\TurFir\www\framework\web\CController.php(782): CommentController->renderPartial()
+#2 Z:\home\TurFir\www\protected\controllers\CommentController.php(7): CommentController->render()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CommentController->runAction()
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CommentController->runActionWithFilters()
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CommentController->run()
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/comment
+in Z:\home\TurFir\www\protected\views\comment\index.php (16)
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (7)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 14:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 14:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 14:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 14:48:05 [error] [php] Invalid argument supplied for foreach() (Z:\home\TurFir\www\protected\views\tour\detailed.php:27)
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(869): TourController->renderFile()
+#1 Z:\home\TurFir\www\framework\web\CController.php(782): TourController->renderPartial()
+#2 Z:\home\TurFir\www\protected\controllers\TourController.php(24): TourController->render()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): TourController->actionView()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): TourController->runAction()
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): TourController->runActionWithFilters()
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): TourController->run()
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/tour/view/id_tour/1
+in Z:\home\TurFir\www\protected\views\tour\detailed.php (27)
+in Z:\home\TurFir\www\protected\controllers\TourController.php (24)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 14:49:07 [error] [php] Invalid argument supplied for foreach() (Z:\home\TurFir\www\protected\views\comment\index.php:16)
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(869): CommentController->renderFile()
+#1 Z:\home\TurFir\www\framework\web\CController.php(782): CommentController->renderPartial()
+#2 Z:\home\TurFir\www\protected\controllers\CommentController.php(7): CommentController->render()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CommentController->runAction()
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CommentController->runActionWithFilters()
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CommentController->run()
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/comment
+in Z:\home\TurFir\www\protected\views\comment\index.php (16)
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (7)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 14:52:42 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1).
+in Z:\home\TurFir\www\protected\controllers\TourController.php (18)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 14:52:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\TourController.php(18): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): TourController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/index')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tour/index
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 14:53:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1).
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (18)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 14:53:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\CommentController.php(18): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/comment
+HTTP_REFERER=http://turfir/comment
+---
+2014/11/21 15:05:39 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1).
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (19)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:05:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\CommentController.php(19): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/index')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/comment/index
+HTTP_REFERER=http://turfir/comment/index
+---
+2014/11/21 15:05:56 [warning] [application] Не удалось присвоить небезопасный атрибут "comment_date" класса "Comment".
+in Z:\home\TurFir\www\protected\modules\admin\controllers\CommentController.php (72)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:05:56 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`comment_text`, `user_name`, `id_tour`) VALUES (:yp0, :yp1, :yp2).
+in Z:\home\TurFir\www\protected\modules\admin\controllers\CommentController.php (73)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:05:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`comment_text`, `user_name`, `id_tour`) VALUES (:yp0, :yp1, :yp2)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\modules\admin\controllers\CommentController.php(73): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionCreate()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 Z:\home\TurFir\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 Z:\home\TurFir\www\framework\web\CController.php(291): CFilterChain->run()
+#11 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment/c...')
+#14 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/comment/create
+HTTP_REFERER=http://turfir/admin/comment/create
+---
+2014/11/21 15:06:00 [warning] [application] Не удалось присвоить небезопасный атрибут "comment_date" класса "Comment".
+in Z:\home\TurFir\www\protected\modules\admin\controllers\CommentController.php (72)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:11:05 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`, `id_tour`) VALUES (:yp0, :yp1, :yp2).
+in Z:\home\TurFir\www\protected\controllers\CommentController.php (19)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:11:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`, `id_tour`) VALUES (:yp0, :yp1, :yp2)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\CommentController.php(19): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): CommentController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/index')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/comment/index
+HTTP_REFERER=http://turfir/comment/index
+---
+2014/11/21 15:15:01 [error] [php] Invalid argument supplied for foreach() (Z:\home\TurFir\www\protected\views\tour\index.php:32)
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(869): TourController->renderFile()
+#1 Z:\home\TurFir\www\framework\web\CController.php(782): TourController->renderPartial()
+#2 Z:\home\TurFir\www\protected\controllers\TourController.php(7): TourController->render()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): TourController->actionIndex()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): TourController->runAction()
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): TourController->runActionWithFilters()
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): TourController->run()
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/tour/index
+in Z:\home\TurFir\www\protected\views\tour\index.php (32)
+in Z:\home\TurFir\www\protected\controllers\TourController.php (7)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:29:39 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`, `id_tour`) VALUES (:yp0, :yp1, :yp2).
+in Z:\home\TurFir\www\protected\controllers\TourController.php (18)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 15:29:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`, `id_tour`) VALUES (:yp0, :yp1, :yp2)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\TourController.php(18): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): TourController->actionView()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('view')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/view/id_to...')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tour/view/id_tour/1
+HTTP_REFERER=http://turfir/tour/view/id_tour/1
+---
+2014/11/21 16:38:17 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1).
+in Z:\home\TurFir\www\protected\controllers\TourController.php (18)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 16:38:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`comment`, CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: INSERT INTO `comment` (`user_name`, `comment_text`) VALUES (:yp0, :yp1)' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\TurFir\www\protected\controllers\TourController.php(18): CActiveRecord->save()
+#3 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): TourController->actionView()
+#4 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('view')
+#8 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('tour/view/id_to...')
+#9 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tour/view/id_tour/1
+HTTP_REFERER=http://turfir/tour/view/id_tour/1
+---
+2014/11/21 17:59:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "OrderController/getmodifications".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('OrderController...')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OrderController/getmodifications
+HTTP_REFERER=http://turfir/order/index
+---
+2014/11/21 17:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "OrderController/getmodifications".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('OrderController...')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/OrderController/getmodifications
+HTTP_REFERER=http://turfir/order/index
+---
+2014/11/21 18:29:31 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: DELETE FROM `tour` WHERE `tour`.`id_tour`=2.
+in Z:\home\TurFir\www\protected\modules\admin\controllers\TourController.php (118)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 18:29:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: DELETE FROM `tour` WHERE `tour`.`id_tour`=2' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('2')
+#2 Z:\home\TurFir\www\protected\modules\admin\controllers\TourController.php(118): CActiveRecord->delete()
+#3 [internal function]: TourController->actionDelete('2')
+#4 Z:\home\TurFir\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TourController), Array)
+#5 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TourController), Object(ReflectionMethod), Array)
+#6 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 Z:\home\TurFir\www\framework\web\CController.php(1116): CFilterChain->run()
+#9 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 Z:\home\TurFir\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\TurFir\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\TurFir\www\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/tour/dele...')
+#19 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin/tour/delete/id/2?ajax=tour-grid
+HTTP_REFERER=http://turfir/admin/tour?view=about
+---
+2014/11/21 18:29:43 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). Выполнявшийся SQL-запрос: DELETE FROM `tour` WHERE `tour`.`id_tour`=2.
+in Z:\home\TurFir\www\protected\modules\admin\controllers\TourController.php (118)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 18:29:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`)). The SQL statement executed was: DELETE FROM `tour` WHERE `tour`.`id_tour`=2' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('2')
+#2 Z:\home\TurFir\www\protected\modules\admin\controllers\TourController.php(118): CActiveRecord->delete()
+#3 [internal function]: TourController->actionDelete('2')
+#4 Z:\home\TurFir\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TourController), Array)
+#5 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TourController), Object(ReflectionMethod), Array)
+#6 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 Z:\home\TurFir\www\framework\web\CController.php(1116): CFilterChain->run()
+#9 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 Z:\home\TurFir\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 Z:\home\TurFir\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\TurFir\www\framework\web\CController.php(291): CFilterChain->run()
+#16 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/tour/dele...')
+#19 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin/tour/delete/id/2?ajax=tour-grid
+HTTP_REFERER=http://turfir/admin/tour?view=about
+---
+2014/11/21 18:33:37 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::execute(): SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). Выполнявшийся SQL-запрос: UPDATE `hotel` SET `id_hotel`=:yp0, `name_hotel`=:yp1, `short_text`=:yp2, `text`=:yp3, `type`=:yp4, `hotel_cost`=:yp5, `id_tour`=:yp6, `visible`=:yp7, `image`=:yp8 WHERE `hotel`.`id_hotel`=1.
+in Z:\home\TurFir\www\protected\modules\admin\controllers\HotelController.php (136)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 18:33:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`turfir`.`hotel`, CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`id_tour`) REFERENCES `tour` (`id_tour`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: UPDATE `hotel` SET `id_hotel`=:yp0, `name_hotel`=:yp1, `short_text`=:yp2, `text`=:yp3, `type`=:yp4, `hotel_cost`=:yp5, `id_tour`=:yp6, `visible`=:yp7, `image`=:yp8 WHERE `hotel`.`id_hotel`=1' in Z:\home\TurFir\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1124): CActiveRecord->updateByPk('1', Array)
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->update(NULL)
+#3 Z:\home\TurFir\www\protected\modules\admin\controllers\HotelController.php(136): CActiveRecord->save()
+#4 [internal function]: HotelController->actionUpdate('1')
+#5 Z:\home\TurFir\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(HotelController), Array)
+#6 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(HotelController), Object(ReflectionMethod), Array)
+#7 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 Z:\home\TurFir\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 Z:\home\TurFir\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 Z:\home\TurFir\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 Z:\home\TurFir\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 Z:\home\TurFir\www\framework\web\CController.php(291): CFilterChain->run()
+#14 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('update')
+#16 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/hotel/upd...')
+#17 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/hotel/update/id/1
+HTTP_REFERER=http://turfir/admin/hotel/update/id/1
+---
+2014/11/21 18:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/2logo.png width=".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/2logo.png%20width=
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/21 18:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/partner/1logo-h100.gif width=".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images/partner/...')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/partner/1logo-h100.gif%20width=
+HTTP_REFERER=http://turfir/partner/index
+---
+2014/11/21 18:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 18:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/tour/view/id_tour/1
+---
+2014/11/21 18:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\TurFir\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#3 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/tour/view/id_tour/1
+---
+2014/11/21 19:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:18:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:44:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Home.short_text".' in Z:\home\TurFir\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('short_text')
+#1 Z:\home\TurFir\www\protected\views\site\index.php(44): CActiveRecord->__get('short_text')
+#2 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#3 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#4 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#5 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#7 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#12 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#13 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/tour/view/id_tour/1
+---
+2014/11/21 19:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 19:49:45 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "share" не содержит столбца "order".' in Z:\home\TurFir\www\framework\db\schema\CDbCommandBuilder.php:694
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 Z:\home\TurFir\www\protected\controllers\SiteController.php(153): CActiveRecord->findAllByAttributes(Array)
+#2 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#3 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#4 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#5 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#6 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#8 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#13 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/insurance/index
+---
+2014/11/21 19:57:05 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in Z:\home\TurFir\www\protected\modules\admin\controllers\ShareController.php (68)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 20:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:09:11 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. Выполнявшийся SQL-запрос: SELECT * FROM `share` `t` ORDER BY id LIMIT 1.
+in Z:\home\TurFir\www\protected\controllers\SiteController.php (154)
+in Z:\home\TurFir\www\protected\views\site\index.php (2)
+in Z:\home\TurFir\www\protected\controllers\SiteController.php (74)
+2014/11/21 20:09:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT * FROM `share` `t` ORDER BY id LIMIT 1' in Z:\home\TurFir\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 Z:\home\TurFir\www\protected\controllers\SiteController.php(154): CActiveRecord->find(Array)
+#4 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#5 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#7 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#10 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#16 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 20:10:31 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.id_share".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('id_share', '2')
+#1 Z:\home\TurFir\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\TurFir\www\protected\controllers\SiteController.php(154): CActiveRecord->find(Array)
+#4 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#5 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#7 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#10 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#16 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 20:12:35 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.id_share".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('id_share', 2)
+#1 Z:\home\TurFir\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\TurFir\www\protected\controllers\SiteController.php(154): CActiveRecord->find(Array)
+#4 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#5 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#7 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#10 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#16 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 20:15:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.visible".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('visible', '1')
+#1 Z:\home\TurFir\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\TurFir\www\protected\controllers\SiteController.php(154): CActiveRecord->find(Array)
+#4 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#5 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#7 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#10 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#16 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 20:16:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.visible".' in Z:\home\TurFir\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\TurFir\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set('visible', '1')
+#1 Z:\home\TurFir\www\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 Z:\home\TurFir\www\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\TurFir\www\protected\controllers\SiteController.php(154): CActiveRecord->find(Array)
+#4 Z:\home\TurFir\www\protected\views\site\index.php(2): SiteController::allShare()
+#5 Z:\home\TurFir\www\framework\web\CBaseController.php(126): require('Z:\home\TurFir\...')
+#6 Z:\home\TurFir\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\TurFir\...', NULL, true)
+#7 Z:\home\TurFir\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\TurFir\...', NULL, true)
+#8 Z:\home\TurFir\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 Z:\home\TurFir\www\protected\controllers\SiteController.php(74): CController->render('index')
+#10 Z:\home\TurFir\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 Z:\home\TurFir\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 Z:\home\TurFir\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 Z:\home\TurFir\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 Z:\home\TurFir\www\framework\web\CWebApplication.php(282): CController->run('index')
+#15 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#16 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://turfir/share/index
+---
+2014/11/21 20:17:12 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in Z:\home\TurFir\www\protected\modules\admin\controllers\ShareController.php (96)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 20:18:25 [warning] [application] Не удалось присвоить небезопасный атрибут "share_date" класса "Share".
+in Z:\home\TurFir\www\protected\modules\admin\controllers\ShareController.php (96)
+in Z:\home\TurFir\www\index.php (13)
+2014/11/21 20:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---
+2014/11/21 20:19:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images//tour/21".' in Z:\home\TurFir\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\TurFir\www\framework\web\CWebApplication.php(141): CWebApplication->runController('images//tour/21')
+#1 Z:\home\TurFir\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\TurFir\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images//tour/21
+HTTP_REFERER=http://turfir/tour/index
+---

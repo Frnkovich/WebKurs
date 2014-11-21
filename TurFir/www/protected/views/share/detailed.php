@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this SiteController */
 if(isset($_GET['id_share'])){
     $id_share = $_GET['id_share'];

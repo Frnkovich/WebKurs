@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $res=ShareController::allShare();
 ?>
 

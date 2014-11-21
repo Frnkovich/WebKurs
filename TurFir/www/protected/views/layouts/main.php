@@ -1,9 +1,9 @@
-<?php /* @var $this Controller */ ?>
+﻿<?php /* @var $this Controller */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+	<meta name="language" content="ru" />
 
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
@@ -12,12 +12,20 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
 
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/engine1/style.css" />
+	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	
+	
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" />
     
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
+
+<body>
 
 
 
@@ -43,21 +51,20 @@
 		)); */?>
    <div id="mainmenu">   
     <ul id="menu">
-    <li><a href="/site/index">Home</a></li>
-    <li><a href="/share/index">Share</a>
-    <li><a href="/country/index">Country</a>
-    <li><a href="/tour/index">Tour</a>
+    <li><a href="/site/index">Главная</a></li>
+    <li><a href="/share/index">Акции</a>
+    <li><a href="/country/index">Страны</a>
+    <li><a href="/tour/index">Туры</a>
         <ul>
-            <li><a href="/order/index">Order</a></li>
+            <li><a href="/order/index">Бронирование тура</a></li>
             <li><a href="#">Search</a></li>
        </ul>
     </li>
-    <li><a href="#">O nas</a>
+    <li><a href="#">О нас</a>
         <ul>
-            <li><a href="/news/index">News</a></li>
-            <li><a href="#">Comments</a></li>
-            <li><a href="/partner/index">Partners</a></li>
-            <li><a href="/insurance/index">Insurance</a></li>
+            <li><a href="/news/index">Новости</a></li>
+            <li><a href="/partner/index">Партнеры</a></li>
+            <li><a href="/insurance/index">Страхование</a></li>
         </ul>
     </li>       
 </ul>

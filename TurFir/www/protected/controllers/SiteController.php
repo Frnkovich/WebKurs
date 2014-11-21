@@ -73,7 +73,6 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
-
 	/**
 	 * This is the action to handle external exceptions.
 	 */
@@ -148,4 +147,18 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+
+        public static function allShare(){
+        //$res = Share::model()->findAllByAttributes(array('visible'=>'1'));
+        $res = Share::model()->find(array('order'=>'share_date DESC'));
+        return $res;
+    }
+    
+    public static function allHome(){
+        //$res = Share::model()->findAllByAttributes(array('visible'=>'1'));
+        $res = Home::model()->findAll(array('order'=>'id'));
+        return $res;
+    }
+    
 }

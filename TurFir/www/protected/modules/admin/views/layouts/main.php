@@ -29,7 +29,7 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/admin')),
+				array('label'=>'Home', 'url'=>array('/admin/home')),
 				array('label'=>'News', 'url'=>array('/admin/news', 'view'=>'about')),
                 array('label'=>'Users', 'url'=>array('/admin/user', 'view'=>'about')),
                 array('label'=>'Country', 'url'=>array('/admin/country', 'view'=>'about')),
@@ -39,6 +39,7 @@
                 array('label'=>'Order', 'url'=>array('/admin/order', 'view'=>'about')),
                 array('label'=>'Partner', 'url'=>array('/admin/partner', 'view'=>'about')),
                 array('label'=>'Insurance', 'url'=>array('/admin/insurance', 'view'=>'about')),
+                array('label'=>'Comment', 'url'=>array('/admin/comment', 'view'=>'about')),
                 
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)

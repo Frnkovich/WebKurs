@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this UserController */
 
 $this->breadcrumbs=array(

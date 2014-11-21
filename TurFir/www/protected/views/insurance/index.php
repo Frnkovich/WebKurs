@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $res=InsuranceController::allInsurance();
 ?>
 <div >
