@@ -58,12 +58,12 @@ class Country extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_country' => 'Id Country',
-			'name' => 'Name',
-			'short_text' => 'Short Text',
-			'text' => 'Text',
-			'visible' => 'Visible',
-            'image' => 'Image',
+			'id_country' => 'Id',
+			'name' => Yii::t('main-ui', 'Название страны'),
+			'short_text' => Yii::t('main-ui', 'Краткое описание'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'visible' => Yii::t('main-ui', 'Доступность'),
+            'image' => Yii::t('main-ui', 'Изображение'),
 		);
 	}
 

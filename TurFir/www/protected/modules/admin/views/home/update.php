@@ -9,13 +9,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Home', 'url'=>array('index')),
-	array('label'=>'Create Home', 'url'=>array('create')),
-	array('label'=>'View Home', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Home', 'url'=>array('admin')),
+	array('label'=>'Список', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Просмотр', 'url'=>array('view', 'id'=>$model->id)),
 );
 ?>
 
-<h1>Update Home <?php echo $model->id; ?></h1>
+<h1>Редактирование <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

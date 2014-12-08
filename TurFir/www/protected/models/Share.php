@@ -61,14 +61,14 @@ class Share extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_share' => 'Id Share',
-			'name_share' => 'Name Share',
-			'short_text' => 'Short Text',
-			'text' => 'Text',
-			'share_date' => 'Share Date',
-			'id_tour' => 'Id Tour',
-			'visible' => 'Visible',
-			'image' => 'Image',
+			'id_share' => 'Id',
+			'name_share' => Yii::t('main-ui', 'Название акции'),
+			'short_text' => Yii::t('main-ui', 'Краткое описание'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'share_date' => Yii::t('main-ui', 'Дата'),
+			'id_tour' => Yii::t('main-ui', 'Тур'),
+			'visible' => Yii::t('main-ui', 'Доступность'),
+			'image' => Yii::t('main-ui', 'Изображение'),
 		);
 	}
 

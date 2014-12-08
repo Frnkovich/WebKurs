@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this UserController */
 /* @var $model User */
 /* @var $form CActiveForm */
@@ -13,34 +13,37 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
-)); ?>
+)); 
+$res=UserController::allRoles();
+$tour = CHtml::listData($res, 'id', 'role');
+?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'user_name'); ?>
-		<?php echo $form->textField($model,'user_name',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'user_name'); ?>
+		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->textField($model,'username',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'user_password'); ?>
-		<?php echo $form->textField($model,'user_password',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'user_password'); ?>
+		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->textField($model,'password',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'password'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'user_email'); ?>
-		<?php echo $form->textField($model,'user_email',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'user_email'); ?>
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'access'); ?>
-		<?php echo $form->textField($model,'access'); ?>
-		<?php echo $form->error($model,'access'); ?>
+		<?php echo $form->labelEx($model,'role'); ?>
+		<?php echo CHtml::activedropDownList($model,'role', $tour); ?>
+		<?php echo $form->error($model,'role'); ?>
 	</div>
 
 	<div class="row buttons">

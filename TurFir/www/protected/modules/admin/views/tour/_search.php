@@ -9,7 +9,10 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
-)); ?>
+)); 
+$res=TourController::allTour();
+$tour = CHtml::listData($res, 'id_country', 'name');
+?>
 
 	<div class="row">
 		<?php echo $form->label($model,'id_tour'); ?>
@@ -38,12 +41,12 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'id_country'); ?>
-		<?php echo $form->textField($model,'id_country'); ?>
+		<?php echo CHtml::activedropDownList($model,'id_country', $tour); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'visible'); ?>
-		<?php echo $form->textField($model,'visible'); ?>
+		<?php echo $form->dropdownlist($model,'visible', array('' => '', '1' => "Доступно", '0' => 'Скрыто') ); ?>
 	</div>
 
 	<div class="row">

@@ -1,33 +1,8 @@
-<?php
-/* @var $this OrderController */
-/* @var $model Order */
+﻿
 
-$this->breadcrumbs=array(
-	'Orders'=>array('index'),
-	'Manage',
-);
+<h1>Просмотр заказов</h1>
 
-$this->menu=array(
-	array('label'=>'Manage Order', 'url'=>array('index')),
-);
-
-Yii::app()->clientScript->registerScript('search', "
-$('.search-button').click(function(){
-	$('.search-form').toggle();
-	return false;
-});
-$('.search-form form').submit(function(){
-	$('#order-grid').yiiGridView('update', {
-		data: $(this).serialize()
-	});
-	return false;
-});
-");
-?>
-
-<h1>Manage Orders</h1>
-
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php //echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -45,14 +20,35 @@ $('.search-form form').submit(function(){
 		'name_tour',
 		'name_country',
 		'name_hotel',
-		/*
 		'cost',
-		'date_departure',
-		'date_return',
-		'id_user',
-		'id_tour',
-		'id_country',
-		*/
+		'amount',
+		'zpass'=> array(
+		'name' => 'zpass',
+		'value' => '($data->zpass ==1)? "Да":"Нет"',
+		'filter' => array(1 => "Да", 0 => "Нет"),
+		),
+		'visa'=> array(
+		'name' => 'visa',
+		'value' => '($data->visa ==1)? "Да":"Нет"',
+		'filter' => array(1 => "Да", 0 => "Нет"),
+		),
+		'alltour'=> array(
+		'name' => 'alltour',
+		'value' => '($data->alltour ==1)? "Да":"Нет"',
+		'filter' => array(1 => "Да", 0 => "Нет"),
+		),
+		'allfood'=> array(
+		'name' => 'allfood',
+		'value' => '($data->allfood ==1)? "Да":"Нет"',
+		'filter' => array(1 => "Да", 0 => "Нет"),
+		),
+		'apartment'=> array(
+		'name' => 'apartment',
+		'value' => '($data->apartment ==1)? "Да":"Нет"',
+		'filter' => array(1 => "Да", 0 => "Нет"),
+		),
+		//'date',
+		
 		array(
 			'class'=>'CButtonColumn',
 		),

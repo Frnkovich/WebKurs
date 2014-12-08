@@ -47,28 +47,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'date_departure'); ?>
-		<?php echo $form->textField($model,'date_departure'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'date_return'); ?>
-		<?php echo $form->textField($model,'date_return'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_user'); ?>
-		<?php echo $form->textField($model,'id_user'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_tour'); ?>
-		<?php echo $form->textField($model,'id_tour'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_country'); ?>
-		<?php echo $form->textField($model,'id_country'); ?>
+		<?php echo $form->label($model,'date'); ?>
+		<?php echo $form->textField($model,'date'); ?>
 	</div>
 
 	<div class="row buttons">

@@ -9,26 +9,29 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
-)); ?>
+)); 
+$res=UserController::allRoles();
+$tour = CHtml::listData($res, 'id', 'role');
+?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_user'); ?>
-		<?php echo $form->textField($model,'id_user'); ?>
+		<?php echo $form->label($model,'id'); ?>
+		<?php echo $form->textField($model,'id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'user_name'); ?>
-		<?php echo $form->textField($model,'user_name',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->label($model,'username'); ?>
+		<?php echo $form->textField($model,'username',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'user_email'); ?>
-		<?php echo $form->textField($model,'user_email',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->label($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'access'); ?>
-		<?php echo $form->textField($model,'access'); ?>
+		<?php echo $form->label($model,'role'); ?>
+		<?php echo CHtml::activedropDownList($model,'role', $tour); ?>
 	</div>
 
 	<div class="row buttons">

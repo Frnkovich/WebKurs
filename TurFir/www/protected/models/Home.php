@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * This is the model class for table "home".
@@ -50,7 +50,7 @@ class Home extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'text' => 'Text',
+			'text' => Yii::t('main-ui', 'Текст'),
 		);
 	}
 

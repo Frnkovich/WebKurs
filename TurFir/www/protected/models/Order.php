@@ -11,11 +11,9 @@
  * @property string $name_country
  * @property string $name_hotel
  * @property integer $cost
- * @property string $date_departure
- * @property string $date_return
- * @property integer $id_user
- * @property integer $id_tour
- * @property integer $id_country
+ * @property integer $date
+ * @property integer $amount
+ * @property integer $options
  */
 class Order extends CActiveRecord
 {
@@ -35,12 +33,12 @@ class Order extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('tourist_email, tourist_name, name_tour, name_country, name_hotel, cost, date_departure, date_return, id_user, id_tour, id_country', 'required'),
-			array('cost, id_user, id_tour, id_country', 'numerical', 'integerOnly'=>true),
+			
+			array('cost, date, amount, zpass, visa, alltour, allfood, apartment', 'numerical', 'integerOnly'=>true),
 			array('tourist_email, tourist_name, name_tour, name_country, name_hotel', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_order, tourist_email, tourist_name, name_tour, name_country, name_hotel, cost, date_departure, date_return, id_user, id_tour, id_country', 'safe', 'on'=>'search'),
+			array('id_order, tourist_email, tourist_name, name_tour, name_country, name_hotel, cost, date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,18 +59,20 @@ class Order extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_order' => 'Id Order',
-			'tourist_email' => 'Tourist Email',
-			'tourist_name' => 'Tourist Name',
-			'name_tour' => 'Name Tour',
-			'name_country' => 'Name Country',
-			'name_hotel' => 'Name Hotel',
-			'cost' => 'Cost',
-			'date_departure' => 'Date Departure',
-			'date_return' => 'Date Return',
-			'id_user' => 'Id User',
-			'id_tour' => 'Id Tour',
-			'id_country' => 'Id Country',
+			'id_order' => 'ID',
+			'tourist_email' => 'Email',
+			'tourist_name' => Yii::t('main-ui', 'Имя туриста'),
+			'name_tour' => Yii::t('main-ui', 'Тур'),
+			'name_country' => Yii::t('main-ui', 'Страна'),
+			'name_hotel' => Yii::t('main-ui', 'Отель'),
+			'cost' => Yii::t('main-ui', 'Стоимость'),
+			'date' => Yii::t('main-ui', 'Дата'),
+			'amount' => Yii::t('main-ui', 'Количество человек'),
+			'zpass' => Yii::t('main-ui', 'Загранпаспорт'),
+			'visa' => Yii::t('main-ui', 'Виза'),
+			'alltour' => Yii::t('main-ui', 'Все экскурсии'),
+			'allfood' => Yii::t('main-ui', 'Полное питание'),
+			'apartment' => Yii::t('main-ui', 'VIP комната'),
 		);
 	}
 
@@ -100,12 +100,14 @@ class Order extends CActiveRecord
 		$criteria->compare('name_tour',$this->name_tour,true);
 		$criteria->compare('name_country',$this->name_country,true);
 		$criteria->compare('name_hotel',$this->name_hotel,true);
+		$criteria->compare('zpass',$this->zpass);
+		$criteria->compare('visa',$this->visa);
+		$criteria->compare('alltour',$this->alltour);
 		$criteria->compare('cost',$this->cost);
-		$criteria->compare('date_departure',$this->date_departure,true);
-		$criteria->compare('date_return',$this->date_return,true);
-		$criteria->compare('id_user',$this->id_user);
-		$criteria->compare('id_tour',$this->id_tour);
-		$criteria->compare('id_country',$this->id_country);
+		$criteria->compare('allfood',$this->allfood);
+		$criteria->compare('apartment',$this->apartment);
+		$criteria->compare('amount',$this->amount);
+		$criteria->compare('date',$this->date);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

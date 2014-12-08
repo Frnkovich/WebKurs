@@ -1,9 +1,11 @@
-﻿<?php
+﻿
+ 
+<?php
 
 
 //$this->pageTitle=Yii::app()->name;
 $res=NewsController::allNews();
-
+CHtml::normalizeUrl(array()); 
 //    echo $key->name;
 //}
 ?>
@@ -12,8 +14,7 @@ $res=NewsController::allNews();
 <?
 foreach($res as $key){
 ?>
-   <caption><a href="/news/view/id_news/<?=$key->id_news?>"><h3><?=$key->short_text?></a></caption>
-   </h3>
+   <caption> <h3> <? echo Chtml::link($key->short_text, array('news/view/', 'id_news'=>$key->id_news)); ?></caption></h3>
     <?=$key->date_create?>
     <hr />
     <?}?>

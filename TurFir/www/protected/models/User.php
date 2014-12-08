@@ -15,6 +15,12 @@
  */
 class User extends CActiveRecord
 {
+    const ROLE_ADMIN = 'administrator';
+    const ROLE_MODER1 = 'moderator1';
+    const ROLE_MODER2 = 'moderator2';
+    const ROLE_USER = 'user';
+
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -31,12 +37,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_name, user_password, user_email, access', 'required'),
-			array('access', 'numerical', 'integerOnly'=>true),
-			array('user_name, user_password, user_email', 'length', 'max'=>255),
+			array('username, password, email', 'required'),
+			array('role', 'numerical', 'integerOnly'=>true),
+			array('username, password, email', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_user, user_name, user_password, user_email, access', 'safe', 'on'=>'search'),
+			array('id, username, password, email, role', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,9 +53,10 @@ class User extends CActiveRecord
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
-		return array(
-			'comments' => array(self::HAS_MANY, 'Comment', 'id_user'),
-		);
+		
+        return array(
+            'role0' => array(self::BELONGS_TO, 'Roles', 'role'),
+        );
 	}
 
 	/**
@@ -58,11 +65,11 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_user' => 'Id User',
-			'user_name' => 'User Name',
-			'user_password' => 'User Password',
-			'user_email' => 'User Email',
-			'access' => 'Access',
+			'id' => 'Id',
+			'username' => Yii::t('main-ui', 'Имя'),
+			'password' => Yii::t('main-ui', 'Пароль'),
+			'email' => 'Email',
+			'role' => Yii::t('main-ui', 'Роль'),
 		);
 	}
 
@@ -84,11 +91,11 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id_user',$this->id_user);
-		$criteria->compare('user_name',$this->user_name,true);
-		$criteria->compare('user_password',$this->user_password,true);
-		$criteria->compare('user_email',$this->user_email,true);
-		$criteria->compare('access',$this->access);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('username',$this->username,true);
+		$criteria->compare('password',$this->password,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('role',$this->role);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

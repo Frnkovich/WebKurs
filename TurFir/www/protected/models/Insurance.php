@@ -54,9 +54,9 @@ class Insurance extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'text' => 'Text',
-			'visible' => 'Visible',
+			'name' => Yii::t('main-ui', 'Имя'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'visible' => Yii::t('main-ui', 'Доступость'),
 		);
 	}
 

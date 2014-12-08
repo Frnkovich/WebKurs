@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Manage News', 'url'=>array('index')),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
-<h1>Create News</h1>
+<h1>Добавление</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

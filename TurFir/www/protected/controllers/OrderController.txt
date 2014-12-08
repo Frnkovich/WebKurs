@@ -1,0 +1,40 @@
+<?php
+
+class OrderController extends Controller
+{
+public function actionIndex()
+ {
+        $form = new Order();
+
+        if (!empty($_POST['Order']))
+        {
+            $form->attributes = $_POST['Order'];
+            //$form->id_order = "1";
+            $form->save();
+            $all_messages = Order::model()->findAll(array('order'=>'date'));
+            $form = new Order();
+            $this->redirect('index',array('form'=>$form,'all_messages'=>$all_messages));
+        }
+        else
+        {
+            $all_messages = Order::model()->findAll(array('order'=>'date'));
+            $this->render('index',array('form'=>$form,'all_messages'=>$all_messages));
+        }
+ }
+ 
+         public static function allTour(){ 
+        $res = Tour::model()->findAllByAttributes(array('visible'=>'1'));
+        return $res;
+    }
+    
+            public static function allCountry(){ 
+        $res = Country::model()->findAllByAttributes(array('visible'=>'1'));
+        return $res;
+    }
+    
+      public static function allHotel(){ 
+        $res = Hotel::model()->findAllByAttributes(array('visible'=>'1'));
+        return $res;
+    }
+    
+}

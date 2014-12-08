@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this CountryController */
 /* @var $model Country */
 
@@ -9,12 +9,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Manage Country', 'url'=>array('index')),
-	array('label'=>'Create Country', 'url'=>array('create')),
-	array('label'=>'View Country', 'url'=>array('view', 'id'=>$model->id_country)),
+	array('label'=>'Список', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Просмотр', 'url'=>array('view', 'id'=>$model->id_country)),
 );
 ?>
 
-<h1>Update Country <?php echo $model->id_country; ?></h1>
+<h1>Редактирование <?php echo $model->id_country; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

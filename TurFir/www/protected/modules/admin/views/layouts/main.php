@@ -1,4 +1,4 @@
-<?php /* @var $this Controller */ ?>
+﻿<?php /* @var $this Controller */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -19,30 +19,32 @@
 </head>
 
 <body>
-
+	         <?php
+            $this->widget('application.components.widgets.LanguageSelector');
+            ?>
 <div class="container" id="page">
 
 	<div id="header">
 		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
-
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/admin/home')),
-				array('label'=>'News', 'url'=>array('/admin/news', 'view'=>'about')),
-                array('label'=>'Users', 'url'=>array('/admin/user', 'view'=>'about')),
-                array('label'=>'Country', 'url'=>array('/admin/country', 'view'=>'about')),
-                array('label'=>'Tour', 'url'=>array('/admin/tour', 'view'=>'about')),
-                array('label'=>'Share', 'url'=>array('/admin/share', 'view'=>'about')),
-                array('label'=>'Hotel', 'url'=>array('/admin/hotel', 'view'=>'about')),
-                array('label'=>'Order', 'url'=>array('/admin/order', 'view'=>'about')),
-                array('label'=>'Partner', 'url'=>array('/admin/partner', 'view'=>'about')),
-                array('label'=>'Insurance', 'url'=>array('/admin/insurance', 'view'=>'about')),
-                array('label'=>'Comment', 'url'=>array('/admin/comment', 'view'=>'about')),
-                
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>Yii::t('main-ui', 'Главная'), 'url'=>array('/admin/home'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Новости'), 'url'=>array('/admin/news'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Пользователи'), 'url'=>array('/admin/user'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Страны'), 'url'=>array('/admin/country'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Альбом стран'), 'url'=>array('/admin/albomc'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Туры'), 'url'=>array('/admin/tour'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Альбом тура'), 'url'=>array('/admin/albom'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Акции'), 'url'=>array('/admin/share'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Отели'), 'url'=>array('/admin/hotel'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Заказы'), 'url'=>array('/admin/order'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Партнеры'), 'url'=>array('/admin/partner'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Страхование'), 'url'=>array('/admin/insurance'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Комментарии'), 'url'=>array('/admin/comment'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main-ui', 'Контакты'), 'url'=>array('/admin/contact'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Выход ('.Yii::app()->user->name.')', 'url'=>array('/admin/default/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>
 	</div><!-- mainmenu -->

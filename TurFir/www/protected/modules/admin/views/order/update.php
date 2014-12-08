@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this OrderController */
 /* @var $model Order */
 
@@ -9,8 +9,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'View Order', 'url'=>array('view', 'id'=>$model->id_order)),
-	array('label'=>'Manage Order', 'url'=>array('index')),
+	array('label'=>'Список заказов', 'url'=>array('index')),
+	array('label'=>'Просмотр заказа', 'url'=>array('view', 'id'=>$model->id_order)),
 );
 ?>
 

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * This is the model class for table "news".
@@ -58,13 +58,13 @@ class News extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_news' => 'Id News',
-			'name' => 'Name',
-			'short_text' => 'Short Text',
-			'text' => 'Text',
-			'visible' => 'Visible',
-			'date_create' => 'Date Create',
-            'image' => 'Image',
+			'id_news' => 'Id',
+			'name' => Yii::t('main-ui', 'Имя'),
+			'short_text' => Yii::t('main-ui', 'Краткое описание'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'visible' => Yii::t('main-ui', 'Доступность'),
+			'date_create' => Yii::t('main-ui', 'Дата создания'),
+            'image' => Yii::t('main-ui', 'Изображение'),
 		);
 	}
 

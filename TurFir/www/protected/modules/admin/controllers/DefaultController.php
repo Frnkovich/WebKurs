@@ -3,12 +3,12 @@
 class DefaultController extends Controller
 {
     public $layout='/layouts/column1';
-	public function actionIndex()
+	/*public function actionIndex()
 	{
 		$this->render('index');
 	}
-    
-    	public function actionLogin()
+    */
+    	public function actionIndex()
 	{
 		$model=new LoginForm;
 
@@ -25,10 +25,10 @@ class DefaultController extends Controller
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect('http://turfir/index.php?r=admin');
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('index',array('model'=>$model));
 	}
 
 	/**
@@ -37,6 +37,8 @@ class DefaultController extends Controller
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
+		$this->redirect('http://turfir/index.php?r=admin');
 	}
+    
+
 }

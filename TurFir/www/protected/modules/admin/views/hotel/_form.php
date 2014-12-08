@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /* @var $this HotelController */
 /* @var $model Hotel */
 /* @var $form CActiveForm */
@@ -13,9 +13,10 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+)); 
+$res=HotelController::allTour();
+$tour = CHtml::listData($res, 'id_tour', 'name_tour');
+?>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -35,21 +36,21 @@
 		<?php echo $form->labelEx($model,'text'); ?>
         <?php $this->widget('application.extensions.TheCKEditor.TheCKEditorWidget',array(
  
- //Ìîäåëü ñ êîòîðîé áóäåò ñâÿçàí âèäæåò
+ //ÐœÐ¾Ð´ÐµÐ»ÑŒ Ñ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð±ÑƒÐ´ÐµÑ‚ ÑÐ²ÑÐ·Ð°Ð½ Ð²Ð¸Ð´Ð¶ÐµÑ‚
  'model'=>$model,
  
- //Àòðèáóò ïîëÿ
+ //ÐÑ‚Ñ€Ð¸Ð±ÑƒÑ‚ Ð¿Ð¾Ð»Ñ
  'attribute'=>'text',
  'height'=>'200px',
  'width'=>'100%',
  
- //íàáîð êíîïîê ðåäàêòîðà (Basic,Standart èëè Full)
+ //Ð½Ð°Ð±Ð¾Ñ€ ÐºÐ½Ð¾Ð¿Ð¾Ðº Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¾Ñ€Ð° (Basic,Standart Ð¸Ð»Ð¸ Full)
  'toolbarSet'=>"Full",
  
- //Ïóòü ê ôàéëó ckeditor.php
+ //ÐŸÑƒÑ‚ÑŒ Ðº Ñ„Ð°Ð¹Ð»Ñƒ ckeditor.php
  'ckeditor'=>Yii::app()->basePath.'/../ckeditor/ckeditor.php',
  
-//Ïóòü ê ðåäàêòîðó
+//ÐŸÑƒÑ‚ÑŒ Ðº Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¾Ñ€Ñƒ
  'ckBasePath'=>Yii::app()->baseUrl.'/ckeditor/',
 ) );?>
 		<?php echo $form->error($model,'text'); ?>
@@ -69,13 +70,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_tour'); ?>
-		<?php echo $form->textField($model,'id_tour'); ?>
+		<?php echo CHtml::activedropDownList($model,'id_tour', $tour); ?>
 		<?php echo $form->error($model,'id_tour'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'visible'); ?>
-		<?php echo $form->textField($model,'visible'); ?>
+		<?php echo $form->dropdownlist($model,'visible', array('' => '', '1' => "Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾", '0' => 'Ð¡ÐºÑ€Ñ‹Ñ‚Ð¾') ); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
 

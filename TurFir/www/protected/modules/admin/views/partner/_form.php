@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this PartnerController */
 /* @var $model Partner */
 /* @var $form CActiveForm */
@@ -41,7 +41,7 @@
     
 	<div class="row">
 		<?php echo $form->labelEx($model,'visible'); ?>
-		<?php echo $form->textField($model,'visible'); ?>
+		<?php echo $form->dropdownlist($model,'visible', array('' => '', '1' => "Доступно", '0' => 'Скрыто') ); ?>
 		<?php echo $form->error($model,'visible'); ?>
 	</div>
     

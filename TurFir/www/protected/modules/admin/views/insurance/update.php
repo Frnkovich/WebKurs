@@ -9,12 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Insurance', 'url'=>array('create')),
-	array('label'=>'View Insurance', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Insurance', 'url'=>array('index')),
+
+	array('label'=>'Просмотр', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
-<h1>Update Insurance <?php echo $model->id; ?></h1>
+<h1>Редактирование <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

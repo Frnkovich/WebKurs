@@ -9,12 +9,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Share', 'url'=>array('create')),
-	array('label'=>'View Share', 'url'=>array('view', 'id'=>$model->id_share)),
-	array('label'=>'Manage Share', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Просмотр', 'url'=>array('view', 'id'=>$model->id_share)),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
-<h1>Update Share <?php echo $model->id_share; ?></h1>
+<h1>Редактирование <?php echo $model->id_share; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

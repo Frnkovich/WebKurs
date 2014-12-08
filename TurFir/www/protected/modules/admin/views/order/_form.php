@@ -56,34 +56,39 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'date_departure'); ?>
-		<?php echo $form->textField($model,'date_departure'); ?>
-		<?php echo $form->error($model,'date_departure'); ?>
+		<?php echo $form->labelEx($model,'amount'); ?>
+		<?php echo $form->textField($model,'amount'); ?>
+		<?php echo $form->error($model,'amount'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'date_return'); ?>
-		<?php echo $form->textField($model,'date_return'); ?>
-		<?php echo $form->error($model,'date_return'); ?>
-	</div>
-
+		<?php echo $form->labelEx($model,'zpass'); ?>
+		<?php echo $form->dropdownlist($model,'zpass', array('1' => "Да", '0' => 'Нет') ); ?>
+		<?php echo $form->error($model,'zpass'); ?>
+	</div>	
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_user'); ?>
-		<?php echo $form->textField($model,'id_user'); ?>
-		<?php echo $form->error($model,'id_user'); ?>
+		<?php echo $form->labelEx($model,'visa'); ?>
+		<?php echo $form->dropdownlist($model,'visa', array('1' => "Да", '0' => 'Нет') ); ?>
+		<?php echo $form->error($model,'visa'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_tour'); ?>
-		<?php echo $form->textField($model,'id_tour'); ?>
-		<?php echo $form->error($model,'id_tour'); ?>
+		<?php echo $form->labelEx($model,'alltour'); ?>
+		<?php echo $form->dropdownlist($model,'alltour', array('1' => "Да", '0' => 'Нет') ); ?>
+		<?php echo $form->error($model,'alltour'); ?>
 	</div>
-
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_country'); ?>
-		<?php echo $form->textField($model,'id_country'); ?>
-		<?php echo $form->error($model,'id_country'); ?>
+		<?php echo $form->labelEx($model,'allfood'); ?>
+		<?php echo $form->dropdownlist($model,'allfood', array('1' => "Да", '0' => 'Нет') ); ?>
+		<?php echo $form->error($model,'allfood'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'apartment'); ?>
+		<?php echo $form->dropdownlist($model,'apartment', array('1' => "Да", '0' => 'Нет') ); ?>
+		<?php echo $form->error($model,'apartment'); ?>
+	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

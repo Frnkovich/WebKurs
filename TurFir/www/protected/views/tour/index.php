@@ -1,4 +1,5 @@
-﻿<?php
+﻿
+<?php
 $res=TourController::allTour();
 ?>
 
@@ -8,10 +9,14 @@ foreach($res as $key){
 ?>
   
    <table >
-   <caption><a href="/tour/view/id_tour/<?=$key->id_tour?>"><h3><?=$key->name_tour?></a></caption>
+   <h3>
+   <? 
+       CHtml::normalizeUrl(array()); 
+      echo Chtml::link($key->name_tour, array('tour/view/', 'id_tour'=>$key->id_tour));  
+   ?>
    <tr></h3></tr>
    <tr>
-    <th><img src="/images//tour/<?=$key->id_tour?><?=$key->image?>" width="200px" height="150px"/> </th>
+    <th><img src="/images/tour/<?=$key->id_tour?><?=$key->image?>" width="200px" height="150px"/> </th>
     <th  ><?=$key->short_text?></th>
    </tr>
   </table>

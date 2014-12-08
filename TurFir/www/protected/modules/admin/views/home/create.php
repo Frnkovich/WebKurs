@@ -8,11 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Home', 'url'=>array('index')),
-	array('label'=>'Manage Home', 'url'=>array('admin')),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
-<h1>Create Home</h1>
+<h1>Добавление</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

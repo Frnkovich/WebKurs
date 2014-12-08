@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Manage Partner', 'url'=>array('index')),
-	array('label'=>'Create Partner', 'url'=>array('create')),
+	array('label'=>'Список', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,9 +26,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Partners</h1>
+<h1>Список</h1>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -44,7 +44,11 @@ $('.search-form form').submit(function(){
 		'name',
 		'url',
 		'img',
-        'visible',
+		'visible' => array(
+		'name' => 'visible',
+		'value' => '($data->visible ==1)? "Доступно":"Скрыто"',
+		'filter' => array(1 => "Доступно", 0 => "Скрыто"),
+		),
 		array(
 			'class'=>'CButtonColumn',
 		),

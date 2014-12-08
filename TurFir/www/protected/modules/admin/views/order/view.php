@@ -8,12 +8,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Delete Order', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_order),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Order', 'url'=>array('index')),
+	array('label'=>'Список заказов', 'url'=>array('index')),
+	array('label'=>'Редактирование заказа', 'url'=>array('update', 'id'=>$model->id_order)),
 );
 ?>
 
-<h1>View Order #<?php echo $model->id_order; ?></h1>
+<h1>Просмотр заказа #<?php echo $model->id_order; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -25,10 +25,11 @@ $this->menu=array(
 		'name_country',
 		'name_hotel',
 		'cost',
-		'date_departure',
-		'date_return',
-		'id_user',
-		'id_tour',
-		'id_country',
+		'amount',
+		'zpass',
+		'visa',
+		'alltour',
+		'allfood',
+		'apartment',
 	),
 )); ?>

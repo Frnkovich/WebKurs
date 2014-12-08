@@ -65,14 +65,14 @@ class Tour extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_tour' => 'Id Tour',
-			'name_tour' => 'Name Tour',
-			'short_text' => 'Short Text',
-			'text' => 'Text',
-			'tour_cost' => 'Tour Cost',
-			'id_country' => 'Id Country',
-			'visible' => 'Visible',
-			'image' => 'Image',
+			'id_tour' => 'Id',
+			'name_tour' => Yii::t('main-ui', 'Название тура'),
+			'short_text' => Yii::t('main-ui', 'Краткое описание'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'tour_cost' => Yii::t('main-ui', 'Стоимость'),
+			'id_country' => Yii::t('main-ui', 'Страна'),
+			'visible' => Yii::t('main-ui', 'Доступность'),
+			'image' => Yii::t('main-ui', 'Изображение'),
 		);
 	}
 
@@ -118,4 +118,6 @@ class Tour extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+    
 }

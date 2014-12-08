@@ -1,62 +1,73 @@
-<?php
-/* @var $this OrderController */
-
-$this->breadcrumbs=array(
-	'Order',
-);
-?>
-<?
+п»ї<?php 
 $res1=OrderController::allTour();
 $res2=OrderController::allCountry();
 $res3=OrderController::allHotel();
-//$re=OrderController::viewTour($id_tour);
-
-?>
-
-<?
-
-
-//$a = CHtml::listData($res, 'id', 'name_tour');
-echo CHtml::dropDownList('drop', '', $res1);
-echo CHtml::dropDownList('drop', '', $res2);
-echo CHtml::dropDownList('drop', '', $res3);
-
-
-            
-echo CHtml::dropDownList('id_country','', $res2,
-array(
-'ajax' => array(
-'type'=>'POST', //request type
-'url'=>CController::createUrl('OrderController/getmodifications'), //url to call.
-//Style: CController::createUrl('currentController/methodToCall')
-'update'=>'#id_tour', //selector to update
-//'data'=>'js:javascript statement' 
-//leave out the data key to pass all form values through
-))); 
- 
-//empty since it will be filled by the other dropdown
-echo CHtml::dropDownList('id_tour','', array());
-
-/*echo "<select>";
-foreach($res as $key){
-    echo "<option > $key->name_tour </option>";
-    echo "</select>";
-    }
-*/
-/*$myOptionsModel = Tour::model()->findAllByAttributes(
-	array('visible'=>'1') // сортировка только для примера
-);
-$myOptions = CHtml::listData(
-	$myOptionsModel,
-	// поле модели $myOptionsModel, из которого будет взято value для <option>
-	'id_tour', 
-	// поле модели $myOptionsModel, из которого будет взята подпись для <option>
-	'name_tour' 
-);
-echo $form->dropDownList($model, 'myField', $model->myOptions);
-*/
+$country = CHtml::listData($res2, 'id_country', 'name');
+$tour = CHtml::listData($res1, 'id_tour', 'name_tour');
+$hotel = CHtml::listData($res3, 'id_hotel', 'name_hotel');
 ?>
 
 
+<?php echo CHtml::form(); ?>
+<?php echo CHtml::errorSummary($form); ?>
 
-</div>
+    <table id="form2" border="0" width="400" cellpadding="10" cellspacing="10">
+        <tr>
+            <td width="30"> <?php echo Yii::t('main-ui', 'Р’РІРµРґРёС‚Рµ РІР°С€Рµ РёРјСЏ');?> <?php// echo CHtml::activeLabel($form, 'tourist_name'); ?></td>
+            <td><?php echo CHtml::activeTextField($form,'tourist_name', array('class' => 'form-control', 'style' => 'width: 55%')); ?></td>
+        </tr>
+        <tr>
+            <td width="30"> <?php echo Yii::t('main-ui', 'Р’РІРµРґРёС‚Рµ РІР°С€ e-mail');?> <?php //echo CHtml::activeLabel($form, 'tourist_email'); ?></td>
+            <td><?php echo CHtml::activeTextField($form,'tourist_email', array('class' => 'form-control', 'style' => 'width: 55%')); ?></td>
+        </tr>
+        <tr>
+            <td width="30"> <?php echo Yii::t('main-ui', 'Р’С‹Р±РµСЂРµС‚Рµ СЃС‚СЂР°РЅСѓ');?> <?php //echo CHtml::activeLabel($form, 'name_country'); ?></td>
+            <td><?php echo CHtml::activedropDownList($form,'name_country',  $country); ?></td>
+        </tr>
+
+		<tr>
+            <td width="150"> <?php echo Yii::t('main-ui', 'Р’С‹Р±РµСЂРµС‚Рµ С‚СѓСЂ');?> <?php //echo CHtml::activeLabel($form, 'tour'); ?></td>
+            <td><?php echo CHtml::activedropDownList($form,'name_tour', $tour); ?></td>
+        </tr>
+		<tr>
+		<td> <?php echo Yii::t('main-ui', 'РћС„РѕСЂРјР»РµРЅРёРµ Р·Р°РіСЂР°РЅРїР°СЃРїРѕСЂС‚Р°');?> <?php echo CHtml::activecheckBox($form,'zpass'); ?></td>
+		</tr>
+		<tr>
+		<td> <?php echo Yii::t('main-ui', 'РћС„РѕСЂРјР»РµРЅРёРµ РІРёР·С‹ ');?><?php echo CHtml::activecheckBox($form,'visa'); ?></td>
+		</tr>
+		<tr>
+		<td> <?php echo Yii::t('main-ui', 'Р’СЃРµ СЌРєСЃРєСѓСЂСЃРёРё');?> <?php echo CHtml::activecheckBox($form,'alltour'); ?></td>
+		</tr>
+		
+        <tr>
+            <td width="150"><?php echo CHtml::activeLabel($form, 'name_hotel'); ?></td>
+            <td><?php echo CHtml::activedropDownList($form,'name_hotel',  $hotel); ?></td>
+        </tr>
+		<tr>
+		<td> <?php echo Yii::t('main-ui', 'РџРѕР»РЅРѕРµ РїРёС‚Р°РЅРёРµ');?> <?php echo CHtml::activecheckBox($form,'allfood'); ?></td>
+		</tr>
+		<tr>
+		<td> <?php echo Yii::t('main-ui', 'VIP РЅРѕРјРµСЂ');?> <?php echo CHtml::activecheckBox($form,'apartment'); ?></td>
+		</tr>
+        <tr>
+            <td width="30"> <?php echo Yii::t('main-ui', 'РљРѕР»РёС‡РµСЃС‚РІРѕ С‡РµР»РѕРІРµРє');?> <?php //echo CHtml::activeLabel($form, 'amount'); ?></td>
+            <td><?php echo CHtml::activeTextField($form,'amount', array('class' => 'form-control', 'style' => 'width: 55%')); ?></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><?php //echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?></td>
+            <td><?php echo CHtml::submitButton(Yii::t('main-ui', 'Р—Р°РєР°Р·'), array('name'=>"ord")); ?></td>
+			<td><?php echo CHtml::submitButton(Yii::t('main-ui', 'РџРѕРґСЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё'), array('name'=>"calc")); ?></td>
+			
+        </tr>
+    </table>
+
+<?php 
+$form->attributes = $_GET;
+echo Yii::t('main-ui', 'РЎС‚РѕРёРјРѕСЃС‚СЊ С‚СѓСЂР°   '); 
+echo $form->cost;
+echo Yii::t('main-ui', '   СЂСѓР±'); 
+echo CHtml::endForm();
+ ?>
+
+

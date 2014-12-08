@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'ТурФир',
+	'sourceLanguage' => 'RU',
 	'language' => 'ru',
 
 	// preloading 'log' component
@@ -18,6 +19,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
         'ext.imperavi-redactor-widget.ImperaviRedactorWidget',
+        'ext.easymultilanguage.*',
 	),
 
 	'modules'=>array(
@@ -35,13 +37,21 @@ return array(
 
 	// application components
 	'components'=>array(
+    
+        'authManager' => array(
+    // Будем использовать свой менеджер авторизации
+        'class' => 'PhpAuthManager',
+    // Роль по умолчанию. Все, кто не админы, модераторы и юзеры — гости.
+        'defaultRoles' => array('guest'),
+    ),
 		'user'=>array(
+            'class' => 'WebUser',
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
 
-		'urlManager'=>array(
+	/*	'urlManager'=>array(
             'showScriptName'=>false,
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -50,7 +60,26 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-	
+	*/
+/*   'request'=>array(
+            'enableCookieValidation'=>true,
+            'enableCsrfValidation'=>true,
+        ),
+      'urlManager'=>array(
+            'class'=>'application.components.UrlManager',
+            'urlFormat'=>'path',
+            'showScriptName'=>true,
+            'rules'=>array(
+                '<language:(ru|en)>/' => 'site/index',
+                '<language:(ru|en)>/<action:(contact|login|logout)>/*' => 'site/<action>',
+                '<language:(ru|en)>/<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                '<language:(ru|en)>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                '<language:(ru|en)>/<controller:\w+>/<action:\w+>/*'=>'<controller>/<action>',
+            ),
+        ),  
+*/
+
+		
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),*/
@@ -87,8 +116,10 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	'params'=>array(
+/*	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+ */   
+
 );

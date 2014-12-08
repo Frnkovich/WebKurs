@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * This is the model class for table "comment".
@@ -58,11 +58,11 @@ class Comment extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_comment' => 'Id Comment',
-			'comment_text' => 'Comment Text',
-			'comment_date' => 'Comment Date',
-			'user_name' => 'User Name',
-			'id_tour' => 'Id Tour',
+			'id_comment' => 'Id',
+			'comment_text' => Yii::t('main-ui', 'Текст комментария'),
+			'comment_date' => Yii::t('main-ui', 'Дата комментария'),
+			'user_name' => Yii::t('main-ui', 'Имя'),
+			'id_tour' => Yii::t('main-ui', 'Тур'),
 		);
 	}
 

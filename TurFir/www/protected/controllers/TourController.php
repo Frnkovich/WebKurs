@@ -18,8 +18,9 @@ class TourController extends Controller
             $form->save();
             $all_messages = Comment::model()->findAll(array('order'=>'comment_date'));
             $form = new Comment();
-            $this->redirect($id_tour,array('form'=>$form,'all_messages'=>$all_messages));
-        }
+            $this->redirect(array('view','id_tour'=>$id_tour));
+
+                }
         else
         {
             $all_messages = Comment::model()->findAll(array('order'=>'comment_date'));
@@ -38,9 +39,13 @@ class TourController extends Controller
         $res=Comment::model()->findAllByAttributes(array('id_tour'=>$id_tour));
         return $res;
     }
+	
+	    public static function  viewPicture($id_tour){
+        $res=Albom::model()->findAllByAttributes(array('id_tour'=>$id_tour));
+        return $res;
+    }
     
-        public static function allTour(){
-        
+        public static function allTour(){ 
         $res = Tour::model()->findAllByAttributes(array('visible'=>'1'));
         return $res;
     }

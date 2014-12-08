@@ -20,14 +20,7 @@ class SiteController extends Controller
 			),
 		);
 	}
-    /*Вывод содержания главной страницы из бд*/
-    public static function indexNews()
-    {
-        $a = News::model()->findByPk(2);
-        //echo $a->header;
-        return  $a->text;  
-    }
-    
+    public $layout='/layouts/column2';
     public static function allNews(){
         
         $res = News::model()->findAllByAttributes(array('visible'=>'1'));
@@ -161,4 +154,18 @@ class SiteController extends Controller
         return $res;
     }
     
+    
+        public static function  viewPicture(){
+        $res=Albomc::model()->findAll();
+        return $res;
+    }
+    
+    public static function  viewPictureT(){
+        $res=Albom::model()->findAll();
+        return $res;
+    }
+	        public static function allContact(){
+        $res = Contact::model()->findAll();
+        return $res;
+    }
 }

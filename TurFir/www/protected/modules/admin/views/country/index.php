@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this CountryController */
 /* @var $model Country */
 
@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Country', 'url'=>array('create')),
+	array('label'=>'Добавление', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -25,9 +25,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Countries</h1>
+<h1>Список стран</h1>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -43,7 +43,11 @@ $('.search-form form').submit(function(){
 		'name',
 		'short_text',
 		//'text',
-		'visible',
+		'visible' => array(
+		'name' => 'visible',
+		'value' => '($data->visible ==1)? "Доступно":"Скрыто"',
+		'filter' => array(1 => "Доступно", 0 => "Скрыто"),
+		),
         'image',
 		array(
 			'class'=>'CButtonColumn',

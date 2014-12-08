@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Manage Share', 'url'=>array('index')),
-	array('label'=>'Create Share', 'url'=>array('create')),
+	array('label'=>'Список', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,9 +26,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Shares</h1>
+<h1>Список</h1>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -43,12 +43,19 @@ $('.search-form form').submit(function(){
 		'id_share',
 		'name_share',
 		'short_text',
-		
-		'share_date',
-		'id_tour',
+		//'share_date',
+		'visible' => array(
+		'name' => 'visible',
+		'value' => '($data->visible ==1)? "Доступно":"Скрыто"',
+		'filter' => array(1 => "Доступно", 0 => "Скрыто"),
+		),
+		'id_tour' => array 
+		(
+			'name' => 'id_tour',
+			'value' => '$data->idTour->name_tour',
+		),
 		/*
         'text',
-		'visible',
 		'image',
 		*/
 		array(

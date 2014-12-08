@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this HotelController */
 /* @var $model Hotel */
 
@@ -25,9 +25,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Hotels</h1>
+<h1>Список отелей</h1>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -45,11 +45,19 @@ $('.search-form form').submit(function(){
 		//'text',
 		'type',
 		'hotel_cost',
-		/*
-		'id_tour',
-		'visible',
-		'image',
-		*/
+		'visible' => array(
+		'name' => 'visible',
+		'value' => '($data->visible ==1)? "Доступно":"Скрыто"',
+		'filter' => array(1 => "Доступно", 0 => "Скрыто"),
+		),
+		'id_tour' => array 
+		(
+			'name' => 'id_tour',
+			'value' => '$data->idTour->name_tour',
+		),
+		
+		//'image',
+		
 		array(
 			'class'=>'CButtonColumn',
 		),

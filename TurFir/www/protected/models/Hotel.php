@@ -62,15 +62,15 @@ class Hotel extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_hotel' => 'Id Hotel',
-			'name_hotel' => 'Name Hotel',
-			'short_text' => 'Short Text',
-			'text' => 'Text',
-			'type' => 'Type',
-			'hotel_cost' => 'Hotel Cost',
-			'id_tour' => 'Id Tour',
-			'visible' => 'Visible',
-			'image' => 'Image',
+			'id_hotel' => 'Id',
+			'name_hotel' => Yii::t('main-ui', 'Название отеля'),
+			'short_text' => Yii::t('main-ui', 'Краткое описание'),
+			'text' => Yii::t('main-ui', 'Текст'),
+			'type' => Yii::t('main-ui', 'Тип отеля'),
+			'hotel_cost' => Yii::t('main-ui', 'Стоимость'),
+			'id_tour' => Yii::t('main-ui', 'Тур'),
+			'visible' => Yii::t('main-ui', 'Доступность'),
+			'image' => Yii::t('main-ui', 'Изображение'),
 		);
 	}
 
@@ -117,4 +117,5 @@ class Hotel extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	
 }

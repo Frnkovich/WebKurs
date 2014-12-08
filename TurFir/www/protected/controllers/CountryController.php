@@ -21,5 +21,8 @@ class CountryController extends Controller
         $res = Country::model()->findAllByAttributes(array('visible'=>'1'));
         return $res;
     }
-    
+    public static function  viewPicture($id_country){
+        $res=Albomc::model()->findAllByAttributes(array('id_country'=>$id_country));
+        return $res;
+    }
 }

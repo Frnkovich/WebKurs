@@ -6,7 +6,10 @@ if(isset($_GET['id_tour'])){
     $id_tour = $_GET['id_tour'];
 $res=TourController::viewTour($id_tour);
 $r=TourController::viewComment($id_tour);
+$pic=TourController::viewPicture($id_tour);
 ?>
+
+
 <div >
 <?
 foreach($res as $key){
@@ -18,17 +21,13 @@ foreach($res as $key){
 <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 	<div id="wowslider-container1">
 	<div class="ws_images"><ul>
-		<li><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/images/2turciya.jpg" alt="2Turciya" title="2Turciya" id="wows1_0"/></li>
-		<li><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/images/331_0.jpg" alt="331_0" title="331_0" id="wows1_1"/></li>
-		<li><a href="http://wowslider.com/vf"><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/images/1232914frederika.jpg" alt="full screen slider" title="1232914-frederika" id="wows1_2"/></a></li>
-		<li><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/images/1img.jpg" alt="1img" title="1img" id="wows1_3"/></li>
+    
+    <?foreach($pic as $k){?>
+        <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/albom/<?=$k->id?><?=$k->img?>" alt="1img1" title="<?=$k->description?>" id="wows1_1" width="300px" height="341px"/></li>
+        
+        <?}?>
 	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="2Turciya"><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/tooltips/2turciya.jpg" alt="2Turciya"/>1</a>
-		<a href="#" title="331_0"><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/tooltips/331_0.jpg" alt="331_0"/>2</a>
-		<a href="#" title="1232914-frederika"><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/tooltips/1232914frederika.jpg" alt="1232914-frederika"/>3</a>
-		<a href="#" title="1img"><img src="<?php echo Yii::app()->request->baseUrl; ?>/data1/tooltips/1img.jpg" alt="1img"/>4</a>
-	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+	
 	<div class="ws_shadow"></div>
 	</div>	
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/engine1/wowslider.js"></script>
@@ -116,7 +115,8 @@ foreach($res as $key){
 
         <tr>
             <td></td>
-            <td><?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?></td>
+            <td><?php //echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?></td>
+			<td><?php echo CHtml::submitButton('Отправить отзыв', array('id' => "submit", 'class' => 'btn btn-default')); ?></td>
         </tr>
     </table>
 

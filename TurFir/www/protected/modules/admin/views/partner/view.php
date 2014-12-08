@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Partner', 'url'=>array('create')),
-	array('label'=>'Update Partner', 'url'=>array('update', 'id'=>$model->id_partner)),
-	array('label'=>'Delete Partner', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_partner),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Partner', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Редактирование', 'url'=>array('update', 'id'=>$model->id_partner)),
+	array('label'=>'Удаление', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_partner),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 

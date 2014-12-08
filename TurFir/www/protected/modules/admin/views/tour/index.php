@@ -8,8 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Manage Tour', 'url'=>array('index')),
-	array('label'=>'Create Tour', 'url'=>array('create')),
+	array('label'=>'Добавление', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,9 +25,9 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Tours</h1>
+<h1>Список</h1>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Расширенный поиск','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -45,9 +44,17 @@ $('.search-form form').submit(function(){
 		'short_text',
 		//'text',
 		'tour_cost',
-		'id_country',
+		'id_country' => array 
+		(
+			'name' => 'id_country',
+			'value' => '$data->idCountry->name',
+		),
+		'visible' => array(
+		'name' => 'visible',
+		'value' => '($data->visible ==1)? "Доступно":"Скрыто"',
+		'filter' => array(1 => "Доступно", 0 => "Скрыто"),
+		),
 		/*
-		'visible',
 		'image',
 		*/
 		array(

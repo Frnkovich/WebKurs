@@ -53,11 +53,11 @@ class Partner extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_partner' => 'Id Partner',
-			'name' => 'Name',
-			'url' => 'url',
-			'img' => 'Img',
-            'visible' => 'visible'
+			'id_partner' => 'Id',
+			'name' => Yii::t('main-ui', 'Имя'),
+			'url' => Yii::t('main-ui', 'url'),
+			'img' => Yii::t('main-ui', 'Изображение'),
+            'visible' => Yii::t('main-ui', 'Доступность'),
 		);
 	}
 

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* @var $this CountryController */
 /* @var $data Country */
 ?>

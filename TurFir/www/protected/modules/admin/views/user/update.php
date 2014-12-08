@@ -4,17 +4,17 @@
 
 $this->breadcrumbs=array(
 	'Users'=>array('index'),
-	$model->id_user=>array('view','id'=>$model->id_user),
+	$model->id=>array('view','id'=>$model->id),
 	'Update',
 );
 
 $this->menu=array(
-	array('label'=>'Create User', 'url'=>array('create')),
-	array('label'=>'View User', 'url'=>array('view', 'id'=>$model->id_user)),
-	array('label'=>'Manage User', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Просмотр', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
-<h1>Update User <?php echo $model->id_user; ?></h1>
+<h1>Редактирование <?php echo $model->id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

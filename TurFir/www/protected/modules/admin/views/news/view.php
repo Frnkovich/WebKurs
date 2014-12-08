@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create News', 'url'=>array('create')),
-	array('label'=>'Update News', 'url'=>array('update', 'id'=>$model->id_news)),
-	array('label'=>'Delete News', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_news),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage News', 'url'=>array('index')),
+	array('label'=>'Добавление', 'url'=>array('create')),
+	array('label'=>'Редактирование', 'url'=>array('update', 'id'=>$model->id_news)),
+	array('label'=>'Удаление', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_news),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Список', 'url'=>array('index')),
 );
 ?>
 
